@@ -4,7 +4,7 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="hauntedtie.skin">
 
-    <!-- 'Cesstex skin' Zope 3 browser layer -->
+    <!-- 'hauntedtie skin' Zope 3 browser layer -->
     <interface
         interface=".interfaces.ICustomTheme"
         type="zope.publisher.interfaces.browser.IBrowserSkinType"
