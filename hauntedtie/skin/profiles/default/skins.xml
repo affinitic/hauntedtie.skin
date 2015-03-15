@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Skin package for hauntedtie website">
+
+    <object name="hauntedtie_skin_images"
+            meta_type="Filesystem Directory View"
+            directory="hauntedtie.skin:skins/hauntedtie_skin_images"/>
+    <object name="hauntedtie_skin_templates"
+            meta_type="Filesystem Directory View"
+            directory="hauntedtie.skin:skins/hauntedtie_skin_templates"/>
+    <object name="hauntedtie_skin_styles"
+            meta_type="Filesystem Directory View"
+            directory="hauntedtie.skin:skins/hauntedtie_skin_styles"/>
+
+    <skin-path name="Skin package for hauntedtie website"
+               based-on="Sunburst Theme">
+        <layer name="hauntedtie_skin_images"
+               insert-after="custom"/>
+        <layer name="hauntedtie_skin_templates"
+               insert-after="hauntedtie_skin_images"/>
+        <layer name="hauntedtie_skin_styles"
+               insert-after="hauntedtie_skin_templates"/>
+
+    </skin-path>
+
+</object>

@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+   <include file="profiles.zcml" />
+   <include file="skins.zcml" />
+
+   <include package=".viewlets" />
+   <include package=".browser" />
+
+   <plone:static type="theme"
+                 directory="static"
+                 name="hauntedtie.skin" />
+
+</configure>
