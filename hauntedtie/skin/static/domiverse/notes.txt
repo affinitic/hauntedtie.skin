@@ -1,0 +1,8 @@
+- Si navigateur supporte pas video, mettre une image fixe à la place
+- Rendre responsive
+- Bouton pour activer / desactiver son de la video?
+    - http://jsbin.com/higor/1/edit?html,output
++ Le cadre doit etre une image et pas intégré à la vidéo
+- faire popup quand on valide les forms
+- Faire slide show quand on regarde un screenshot
+    - http://jsfiddle.net/uZCC6/

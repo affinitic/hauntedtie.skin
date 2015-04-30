@@ -1,0 +1,256 @@
+.center {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    background-color: #3d5c66;
+    color: #c2a399;
+    border: none;
+    padding-left: 5px;
+}
+
+body {
+    font-family: sans-serif;
+    color: #21343b;
+}
+
+body.homepage {
+    border: 0;
+    margin: 0;
+    background-color: #57707a;
+}
+
+div.main {
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+#video-bg {
+    width: 1280px;
+    height: 720px;
+    z-index: -1;
+}
+
+#domiverse-video {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    //background-image: url("images/video_background.png");
+}
+
+#site-content {
+    width: 1280px;
+    height: 720px;
+    z-index: 1;
+}
+
+#cadre {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 720px;
+    background-image: url("images/cadre.png");
+    background-repeat: no-repeat;
+}
+
+#mute-container {
+    position: absolute;
+    left: 1160px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#social-networks {
+    position: absolute;
+    left: 700px;
+    top: 90px;
+    width: 210px;
+    height: 90px;
+    background-image: url("images/social_network_bg.png");
+    background-repeat: no-repeat;
+}
+
+#social-networks-icons {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#social-networks-icons ul {
+    display: inline;
+    list-style: outside none none;
+    padding: 0;
+}
+
+#social-networks-icons ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#social-networks-icons ul li a {
+    color: #ddd !important;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+#icon-facebook {
+    background-image: url("images/icon_facebook.png");
+    background-repeat: no-repeat;
+}
+
+#icon-twitter {
+    background-image: url("images/icon_twitter.png");
+    background-repeat: no-repeat;
+}
+
+#icon-youtube {
+    background-image: url("images/icon_youtube.png");
+    background-repeat: no-repeat;
+}
+
+#screenshot-left {
+    position: absolute;
+    left: 128px;
+    top: 190px;
+    width: 210px;
+    height: 180px;
+    background-image: url("images/screenshot_left_bg.png");
+    background-repeat: no-repeat;
+}
+
+#screenshot-left-content {
+    position: absolute;
+    left: 20px;
+    top:40px;
+    //width: 192px;
+    //height: 91px;
+}
+
+#screenshot-right {
+    position: absolute;
+    left: 956px;
+    top: 190px;
+    width: 210px;
+    height: 180px;
+    background-image: url("images/screenshot_right_bg.png");
+    background-repeat: no-repeat;
+}
+
+#screenshot-right-content {
+    position: absolute;
+    left: 20px;
+    top:40px;
+    width: 192px;
+    height: 91px;
+}
+
+#game-description {
+    position: absolute;
+    left: 128px;
+    top: 414px;
+    width: 330px;
+    height: 210px;
+    background-image: url("images/game_description_bg.png");
+    background-repeat: no-repeat;
+}
+
+#game-description-content {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    width: 274px;
+    height: 132px;
+    font-size: 10pt;
+    line-height: 16px;
+}
+
+#newsletter {
+    position: absolute;
+    left: 514px;
+    top: 512px;
+    width: 260px;
+    height: 110px;
+    background-image: url("images/newsletter_bg.png");
+    background-repeat: no-repeat;
+}
+
+#newsletter-content {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    width: 274px;
+    height: 132px;
+    font-size: 10pt;
+    line-height: 16px;
+}
+
+#newsletter-content .text-input {
+    width: 150px;
+    height: 22px;
+}
+
+#newsletter-content .button-input {
+    height: 22px;
+}
+
+#contact {
+    position: absolute;
+    left: 832px;
+    top: 414px;
+    width: 330px;
+    height: 210px;
+    background-image: url("images/contact_bg.png");
+    background-repeat: no-repeat;
+}
+
+#contact-content {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 320px;
+    height: 192px;
+}
+
+#contact-content .text-input {
+    width: 200px;
+    margin-bottom: 10px;
+    height: 22px;
+}
+
+#contact-content .text-area {
+    width: 200px;
+    height: 70px;
+    bottom: 0;
+}
+
+#contact-send-button {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 210px;
+    bottom: 57px;
+}
+
+#contact-send-button input {
+    height: 40px;
+}
