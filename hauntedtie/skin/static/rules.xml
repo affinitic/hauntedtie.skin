@@ -19,8 +19,6 @@
     <drop theme="/html/head/title" />
     <drop theme="/html/head/base" />
     <drop theme="/html/head/style" />
-    <drop theme="/html/head/script" />
-    <drop theme="/html/head/link" />
     <drop theme="/html/head/comment()" />
     <after content="/html/head/meta" theme-children="/html/head" />
     <after content="/html/head/title" theme-children="/html/head" />
@@ -32,39 +30,9 @@
     <copy attributes="xmlns lang xml:lang" content="/html" theme="/html" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
-    <replace css:content-children="#portal-siteactions"
-             css:theme-children="#portal-siteactions-theme" />
-
-    <replace css:content-children="#portal-personaltools-wrapper"
-             css:theme-children="#personal-tools-theme" />
-
-    <replace css:content-children="#portal-logo"
-             css:theme-children="#portal-logo" />
-
-    <replace css:content-children="#portal-column-one"
-             css:theme-children="#left-column-theme" />
-
-    <replace css:content-children="#portal-column-content"
-             css:theme-children="#main-column-theme"
-             if="$have_portlets" />
-
-    <replace css:content-children="#portal-column-content"
-             css:theme-children="#main-column-large-theme"
-             if="$have_no_portlet" />
-
-    <!--replace css:content-children="#portal-colophon"
-             css:theme-children="#colophon-theme" /-->
-
-    <replace css:content-children="#footer-sitemap"
-             css:theme-children="#footer-menu" />
-
-    <!--replace css:content-children="#portal-footer"
-             css:theme-children="#footer-theme" /-->
+    <replace css:content-children="#content-core"
+             css:theme-children="#game-description-content" />
 
     <drop css:theme="#hauntedtie-slider" if-path="societe" />
-
-    <drop css:theme="#left-column-theme" if="$have_no_portlet" />
-    <drop css:theme="#main-column-theme" if="$have_no_portlet" />
-    <drop css:theme="#main-column-large-theme" if="$have_portlets" />
 
 </rules>

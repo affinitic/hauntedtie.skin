@@ -24,15 +24,12 @@ input, textarea {
     padding-left: 5px;
 }
 
-body {
-    font-family: sans-serif;
-    color: #21343b;
-}
-
-body.homepage {
+body.template-document_view {
     border: 0;
     margin: 0;
-    background-color: #57707a;
+    background-color: #33464d;
+    font-family: sans-serif;
+    color: #21343b;
 }
 
 div.main {
@@ -51,7 +48,8 @@ div.main {
     position: absolute;
     width: 1280px;
     height: 720px;
-    //background-image: url("images/video_background.png");
+    background-color: #0e2129;
+/*    background-image: url("images/video_background.png");*/
 }
 
 #site-content {
@@ -83,10 +81,10 @@ div.main {
     position: absolute;
     left: 700px;
     top: 90px;
-    width: 210px;
+    width: 260px;
     height: 90px;
-    background-image: url("images/social_network_bg.png");
-    background-repeat: no-repeat;
+/*    background-image: url("images/social_network_bg.png");*/
+/*    background-repeat: no-repeat;*/
 }
 
 #social-networks-icons {
@@ -109,8 +107,8 @@ div.main {
 #social-networks-icons ul li a {
     color: #ddd !important;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 64px;
+    height: 62px;
 }
 
 #icon-facebook {
@@ -118,14 +116,26 @@ div.main {
     background-repeat: no-repeat;
 }
 
+#icon-facebook:hover {
+    background-position: -64px 0;
+}
+
 #icon-twitter {
     background-image: url("images/icon_twitter.png");
     background-repeat: no-repeat;
 }
 
+#icon-twitter:hover {
+    background-position: -64px 0;
+}
+
 #icon-youtube {
     background-image: url("images/icon_youtube.png");
     background-repeat: no-repeat;
+}
+
+#icon-youtube:hover {
+    background-position: -64px 0;
 }
 
 #screenshot-left {
@@ -253,4 +263,14 @@ div.main {
 
 #contact-send-button input {
     height: 40px;
+}
+
+#mid-platform {
+    position: absolute;
+    left: 438px;
+    top: 298px;
+    width: 412px;
+    height: 64px;
+    background-image: url("images/mid_platform.png");
+    background-repeat: no-repeat;
 }
