@@ -1,3 +1,8 @@
+@font-face {
+    font-family: pixel;
+    src: url("mecha.ttf") format('truetype');
+}
+
 .center {
     left: 0;
     right: 0;
@@ -14,22 +19,27 @@
 
 h2 {
     margin: 0;
-    margin-bottom: 5px;
 }
 
 input, textarea {
-    background-color: #3d5c66;
-    color: #c2a399;
-    border: none;
+    background-color: #38515a;
+    border: 2px solid #3d5c66;
+    color: #3fa7c0;
     padding-left: 5px;
+    font-family: verdana;
+    font-size: 10pt;
 }
 
 body.template-document_view {
     border: 0;
     margin: 0;
     background-color: #33464d;
-    font-family: sans-serif;
-    color: #21343b;
+    font-family: "pixel", sans-serif;
+    color: #3fa7c0;
+}
+
+#domiverse-website input[type="text"]:focus, #domiverse-website input[type="password"]:focus, #domiverse-website textarea:focus {
+    background-color: #3d5c66;
 }
 
 div.main {
@@ -49,7 +59,7 @@ div.main {
     width: 1280px;
     height: 720px;
     background-color: #0e2129;
-/*    background-image: url("images/video_background.png");*/
+    background-image: url("images/video_background.png");
 }
 
 #site-content {
@@ -79,8 +89,8 @@ div.main {
 
 #social-networks {
     position: absolute;
-    left: 700px;
-    top: 90px;
+    left: 98px;
+    top: 55px;
     width: 260px;
     height: 90px;
 /*    background-image: url("images/social_network_bg.png");*/
@@ -158,7 +168,7 @@ div.main {
 
 #screenshot-right {
     position: absolute;
-    left: 956px;
+    left: 960px;
     top: 190px;
     width: 210px;
     height: 180px;
@@ -190,14 +200,18 @@ div.main {
     top: 40px;
     width: 274px;
     height: 132px;
-    font-size: 10pt;
+    font-size: 12pt;
     line-height: 16px;
+}
+
+#game-description-content .subtitle {
+    font-size: 15pt;
 }
 
 #newsletter {
     position: absolute;
     left: 514px;
-    top: 512px;
+    top: 510px;
     width: 260px;
     height: 110px;
     background-image: url("images/newsletter_bg.png");
@@ -206,11 +220,11 @@ div.main {
 
 #newsletter-content {
     position: absolute;
-    left: 30px;
-    top: 25px;
+    left: 27px;
+    top: 12px;
     width: 274px;
     height: 132px;
-    font-size: 10pt;
+    font-size: 12pt;
     line-height: 16px;
 }
 
@@ -220,7 +234,8 @@ div.main {
 }
 
 #newsletter-content .button-input {
-    height: 22px;
+    height: 26px;
+    padding-right: 5px;
 }
 
 #contact {
@@ -236,7 +251,7 @@ div.main {
 #contact-content {
     position: absolute;
     left: 30px;
-    top: 30px;
+    top: 15px;
     width: 320px;
     height: 192px;
 }
@@ -249,7 +264,7 @@ div.main {
 
 #contact-content .text-area {
     width: 200px;
-    height: 70px;
+    height: 77px;
     bottom: 0;
 }
 
@@ -257,12 +272,19 @@ div.main {
     padding: 0;
     margin: 0;
     position: absolute;
-    left: 210px;
-    bottom: 57px;
+    left: 212px;
+    bottom: 35px;
 }
 
 #contact-send-button input {
     height: 40px;
+    padding-right: 5px;
+}
+
+#domiverse-website h2 {
+    color: #3fa7c0;
+    font-family: pixel, sans-serif;
+    font-size: 20pt;
 }
 
 #mid-platform {

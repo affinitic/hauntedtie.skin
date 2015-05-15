@@ -6,3 +6,9 @@
 - faire popup quand on valide les forms
 - Faire slide show quand on regarde un screenshot
     - http://jsfiddle.net/uZCC6/
+
+- Click sur icone pixel perfect
+- Images en damier
+- Javascript images
+- Send email
+- Send newsletter
