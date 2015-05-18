@@ -160,7 +160,7 @@ div.main {
 
 #screenshot-left-content {
     position: absolute;
-    left: 20px;
+    left: 23px;
     top:40px;
     //width: 192px;
     //height: 91px;
@@ -178,7 +178,7 @@ div.main {
 
 #screenshot-right-content {
     position: absolute;
-    left: 20px;
+    left: 23px;
     top:40px;
     width: 192px;
     height: 91px;
