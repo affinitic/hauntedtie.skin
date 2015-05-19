@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="hauntedtie.portal.setup"
+               version="20150519-01"
+               handler="hauntedtie.skin.setuphandlers.setupHauntedTie"
+               title="Haunted Tie : setup portal">
+    Setup haunted tie portal.
+  </import-step>
+</import-steps>

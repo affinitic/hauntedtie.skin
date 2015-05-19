@@ -1,0 +1,66 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="gites">
+<body>
+
+<div metal:fill-slot="main">
+  <tal:main tal:define="text context/getText;">
+
+    <div tal:replace="structure provider:plone.abovecontenttitle" />
+
+    <h1 tal:content="here/Title">
+        Item title
+    </h1>
+        <a href=""
+           class="link-parent"
+           tal:define="parent_url python:here.navigationParent(here, template.getId())"
+           tal:condition="parent_url"
+           tal:attributes="href parent_url"
+           i18n:translate="go_to_parent_url">
+        Up one level
+      </a>
+            <div class="stx"
+             id="content-core"
+             tal:condition="text"
+             tal:attributes="class python:here.Format() in ('text/structured', 'text/x-rst', ) and 'stx' or 'plain'">
+            <div tal:replace="structure text" />
+            </div>
+            <br/>
+
+      <div id="foo">
+        FOOOO
+      </div>
+
+<!--
+      <fieldset class="paymentInfo"
+           tal:define="view context/boutiqueItemView"
+           tal:condition="view/isPayable">
+           <legend i18n:translate="commande">Commande</legend>
+           <p i18n:translate="text_price">
+           Price: <span tal:content="view/getPrice" i18n:name="value_price"/> &euro;</p>
+
+           <form action=""
+                 method="post"
+                 tal:attributes="action string:${context/absolute_url}/@@getpaid-cart-add">
+              <input type="hidden"
+                     name="add_item" value="True"/>
+              <input type="submit" class="button context"
+                     i18n:attributes="value label_add_to_cart"
+                     value="Add to Cart"/>
+              <input type="submit" class="button context"
+                     i18n:attributes="value heading_checkout"
+                     value="Checkout"/>
+           </form>
+
+      </fieldset>
+-->
+
+
+  </tal:main>
+</div>
+
+</body>
+</html>
+
+

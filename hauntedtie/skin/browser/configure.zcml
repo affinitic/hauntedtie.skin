@@ -11,5 +11,13 @@
         name="hauntedtie skin"
         />
 
+    <browser:page
+      for="*"
+      name="domiverse_homepage_view"
+      class=".domiverse_homepage.DomiverseHomepage"
+      permission="zope2.View"
+      template="templates/domiverse_document_view.pt"
+      />
+
 </configure>
 
