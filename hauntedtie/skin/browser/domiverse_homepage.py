@@ -34,7 +34,7 @@ class DomiverseHomepage(BrowserView):
     def newsletter_message(subscribe_mail):
         """ Returns the email message """
         content = '%s %s' % ("The following mail must be added to the newsletter list:", subscribe_mail)
-        message = email.message_from_string(content.encode('utf-8'))
+        message = email.message_from_string(content)
         message.set_charset('utf-8')
         message['X-Priority'] = email.Header.Header('1')
         return message
@@ -57,7 +57,7 @@ class DomiverseHomepage(BrowserView):
     def contact_message(name, message):
         """ Returns the email message """
         content = CONTACT_MESSAGE % (name, message)
-        message = email.message_from_string(content.encode('utf-8'))
+        message = email.message_from_string(content)
         message.set_charset('utf-8')
         message['X-Priority'] = email.Header.Header('1')
         return message
