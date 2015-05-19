@@ -296,3 +296,14 @@ div.main {
     background-image: url("images/mid_platform.png");
     background-repeat: no-repeat;
 }
+
+#domiverse-logo {
+    position: absolute;
+    left: 322px;
+    top: -18px;
+    width: 640px;
+    height: 360px;
+    background-image: url("images/domiverse_logo.png");
+    background-repeat: no-repeat;
+    z-index: -10;
+}
