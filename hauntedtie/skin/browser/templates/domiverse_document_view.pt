@@ -28,34 +28,45 @@
             </div>
             <br/>
 
-      <div id="foo">
-        FOOOO
+
+      <div id="newsletter-content">
+          <span tal:define="statut view/newsletter_subscribe" />
+          <h2>Newsletter</h2>
+
+          <form action=""
+                method="post">
+              <input type="text"
+                     placeholder="Type you Email"
+                     class="text-input"
+                     name="newsletter_email" />
+              <input type="submit"
+                     value="GO!"
+                     class="button-input" />
+          </form>
       </div>
 
-<!--
-      <fieldset class="paymentInfo"
-           tal:define="view context/boutiqueItemView"
-           tal:condition="view/isPayable">
-           <legend i18n:translate="commande">Commande</legend>
-           <p i18n:translate="text_price">
-           Price: <span tal:content="view/getPrice" i18n:name="value_price"/> &euro;</p>
 
-           <form action=""
-                 method="post"
-                 tal:attributes="action string:${context/absolute_url}/@@getpaid-cart-add">
-              <input type="hidden"
-                     name="add_item" value="True"/>
-              <input type="submit" class="button context"
-                     i18n:attributes="value label_add_to_cart"
-                     value="Add to Cart"/>
-              <input type="submit" class="button context"
-                     i18n:attributes="value heading_checkout"
-                     value="Checkout"/>
-           </form>
+      <div id="contact-content">
+          <span tal:define="statut view/contact_us" />
+          <h2>Contact us</h2>
 
-      </fieldset>
--->
+          <form action=""
+                method="post">
+              <input type="text"
+                     placeholder="Your name"
+                     class="text-input"
+                     name="contact_name" />
+              <br />
+              <textarea placeholder="Your message"
+                        class="text-area"
+                        name="contact_message"></textarea>
 
+              <div id="contact-send-button">
+                  <input type="submit"
+                         value="SEND!" />
+              </div>
+          </form>
+      </div>
 
   </tal:main>
 </div>

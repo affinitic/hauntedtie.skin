@@ -33,8 +33,11 @@
     <replace css:content-children="#content-core"
              css:theme-children="#game-description-content" />
 
-    <replace css:content-children="#foo"
-             css:theme-children="#replace-newsletter" />
+    <replace css:content-children="#newsletter-content"
+             css:theme-children="#newsletter-content" />
+
+    <replace css:content-children="#contact-content"
+             css:theme-children="#contact-content" />
 
     <drop css:theme="#hauntedtie-slider" if-path="societe" />
 
