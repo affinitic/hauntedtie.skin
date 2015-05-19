@@ -36,7 +36,7 @@
           <form action=""
                 method="post">
               <input type="text"
-                     placeholder="Type you Email"
+                     placeholder="Type your Email"
                      class="text-input"
                      name="newsletter_email" />
               <input type="submit"
