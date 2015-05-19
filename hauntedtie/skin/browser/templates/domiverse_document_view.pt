@@ -35,13 +35,7 @@
 
           <form action=""
                 method="post">
-              <input type="text"
-                     placeholder="Type your Email"
-                     class="text-input"
-                     name="newsletter_email" />
-              <input type="submit"
-                     value="GO!"
-                     class="button-input" />
+              <input type="text" placeholder="Type your Email" class="text-input" name="newsletter_email" />&nbsp;<input type="submit" value="GO!" class="button-input" />
           </form>
       </div>
 
