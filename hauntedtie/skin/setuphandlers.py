@@ -9,6 +9,7 @@ def setupHauntedTie(context):
     portal = context.getSite()
     front_page = portal.get('front-page')
 
+    addViewToType(portal, 'Document', 'presskit_view')
     changeFolderView(portal, front_page, 'domiverse_homepage_view')
 
 

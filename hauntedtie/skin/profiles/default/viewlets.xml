@@ -1,0 +1,18 @@
+<object>
+    <hidden manager="plone.portalheader" skinname="Skin package for hauntedtie website">
+        <viewlet name="plone.searchbox" />
+        <viewlet name="plone.logo" />
+        <viewlet name="plone.global_sections" />
+    </hidden>
+
+    <hidden manager="plone.abovecontent" skinname="Skin package for hauntedtie website">
+        <viewlet name="plone.path_bar" />
+    </hidden>
+
+    <hidden manager="plone.portalfooter" skinname="Skin package for hauntedtie website">
+        <viewlet name="plone.footer" />
+        <viewlet name="plone.colophon" />
+        <viewlet name="plone.site_actions" />
+    </hidden>
+
+</object>

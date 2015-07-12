@@ -13,6 +13,7 @@
     <notheme if-path="anchor.htm"/>
     <notheme if-path="table.htm"/>
     <notheme if-path="attributes.htm"/>
+    <notheme if-path="presskit"/>
 
     <!-- Common Plone rules -->
     <drop theme="/html/head/meta" />

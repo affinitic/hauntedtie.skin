@@ -12,3 +12,7 @@
 - Javascript images
 - Send email
 - Send newsletter
+
+- Reinstall package
+- Envoyer le blob storages et data.fs
+- Attention vérifier que le user admin/admin est pas devenu actif en prod après ça
