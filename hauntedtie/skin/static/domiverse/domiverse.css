@@ -91,7 +91,7 @@ div.main {
     position: absolute;
     left: 98px;
     top: 55px;
-    width: 260px;
+    width: 350px;
     height: 90px;
 /*    background-image: url("images/social_network_bg.png");*/
 /*    background-repeat: no-repeat;*/
@@ -145,6 +145,15 @@ div.main {
 }
 
 #icon-youtube:hover {
+    background-position: -64px 0;
+}
+
+#icon-press {
+    background-image: url("images/icon_press.png");
+    background-repeat: no-repeat;
+}
+
+#icon-press:hover {
     background-position: -64px 0;
 }
 

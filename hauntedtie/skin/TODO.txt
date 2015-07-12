@@ -10,9 +10,11 @@
 - Click sur icone pixel perfect
 - Images en damier
 - Javascript images
-- Send email
-- Send newsletter
+
+- Ajouter lien vers presskit sur page d'accueil
 
 - Reinstall package
 - Envoyer le blob storages et data.fs
 - Attention vérifier que le user admin/admin est pas devenu actif en prod après ça
+
+- Faire un lien dynamique pour le presskit
