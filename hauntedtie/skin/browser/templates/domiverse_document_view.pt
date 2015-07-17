@@ -2,9 +2,11 @@
       lang="en"
       metal:use-macro="here/main_template/macros/master"
       i18n:domain="hauntedtie">
-  <head>
+
+  <metal:slot fill-slot="head_slot">
     <meta name="google-site-verification" content="Ssn14ue82izEVBsbmmhzBVBdCLNPrJu1VXZYVsrGeW8" />
-  </head>
+  </metal:slot>
+
 <body>
 
 <div metal:fill-slot="main">
