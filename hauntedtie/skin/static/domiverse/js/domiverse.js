@@ -48,7 +48,18 @@ jQuery(document).ready(function ($) {
     });
 
     // Jquery UI tabs
-    $( "#media-tabs" ).tabs();
+    function activateMediaTab(event, ui)
+    {
+        // Youtube video controller
+        var id = ui.newTab.attr('id');
+        if (id !== 'video-tab')
+        {
+            pauseDomiverseVideo();
+        }
+    }
+    $( "#media-tabs" ).tabs({
+        activate: activateMediaTab
+    });
     $( "#character-tabs" ).tabs();
 
     // Faces link
@@ -57,5 +68,9 @@ jQuery(document).ready(function ($) {
         scrollToAnchor("#section-characters");
         var index = $('#character-tabs a[href="'+href+'"]').parent().index();
         $( "#character-tabs" ).tabs( "option", "active", index );
+    });
+
+    jQuery('#GIGI').click(function(){
+        pauseDomiverseVideo();
     });
 });

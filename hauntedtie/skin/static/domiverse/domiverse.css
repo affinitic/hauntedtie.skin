@@ -164,17 +164,13 @@ div.main {
 
 #section-media {
     width: 1280px;
-    height: 720px;
+    height: 800px;
     background-image: url("images/section_video_bg.png");
 }
 
-#inside-media {
-    padding-top: 300px;
-    z-index -10;
-}
-
-#media-tabs {
+#media-tabs ul{
     list-style: none;
+    margin: 0;
 }
 
 #media-tabs li{
