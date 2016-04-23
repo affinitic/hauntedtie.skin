@@ -24,7 +24,8 @@ jQuery(document).ready(function ($) {
     // Menu scroll to anchor
     function scrollToAnchor(selector){
         var aTag = $(selector);
-        $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+        var menu = $("#section-menu");
+        $('html,body').animate({scrollTop: aTag.offset().top - menu.height()},'slow');
     }
 
     $("#nav a").click(function(e) {
@@ -44,5 +45,17 @@ jQuery(document).ready(function ($) {
       {
         $el.css({'position': 'absolute', 'top': '720px'});
       }
+    });
+
+    // Jquery UI tabs
+    $( "#media-tabs" ).tabs();
+    $( "#character-tabs" ).tabs();
+
+    // Faces link
+    $(".faces-link").click(function(){
+        href = $(this).attr('href');
+        scrollToAnchor("#section-characters");
+        var index = $('#character-tabs a[href="'+href+'"]').parent().index();
+        $( "#character-tabs" ).tabs( "option", "active", index );
     });
 });

@@ -5,6 +5,10 @@
         <!-- Add jQuery library -->
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+        <!-- Add jQuery UI library -->
+        <script type="text/javascript" src="domiverse/js/jquery-ui.min.js"></script>
+        <!--<link rel="stylesheet" type="text/css" href="domiverse/css/jquery-ui.min.css">-->
+
         <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -41,6 +45,11 @@
                     </div>
                     <div class="banner" id="banner-2">
                     </div>
+
+                    <div id="glo-link" href="#tabs-glo" class="faces-link"></div>
+                    <div id="ash-link" href="#tabs-ash" class="faces-link"></div>
+                    <div id="nili-link" href="#tabs-nili" class="faces-link"></div>
+
                 </div>
 
                 <div id="section-menu">
@@ -53,27 +62,102 @@
                     </ul>
                 </div>
 
+                <!-- Empty div where the menu will always be in front -->
+                <div id="section-dummy-menu">
+                </div>
+
                 <div id="section-media">
-                    <div>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        Section video Section video Section videoSection video Section video Section video
+                    <div id="inside-media">
+                        <div id="media-tabs">
+                          <ul>
+                            <li><a href="#tabs-video">Video</a></li>
+                            <li><a href="#tabs-screenshots">Screenshots</a></li>
+                          </ul>
+                          <div id="tabs-video">
+                            <img src="domiverse/images/Glo.png" />
+                            <p>Last winner of the spit contest in his planet, he is the champion they were waiting for!
+
+Gl’mrph spit bouncing bullets and can walk on walls and ceilings.</p>
+                          </div>
+                          <div id="tabs-screenshots">
+                            <a class="fancybox" href="domiverse/images/domiverse_screenshot_1.png"><img src="domiverse/images/screenshot_left.png" alt=""/></a>
+
+                            <div class="hidden">
+                                <a class="fancybox" href="domiverse/images/domiverse_screenshot_2.png"><img src="domiverse/images/domiverse_screenshot_2.png" alt=""/></a>
+
+                                <a class="fancybox" href="domiverse/images/domiverse_screenshot_3.png"><img src="domiverse/images/domiverse_screenshot_3.png" alt=""/></a>
+                                <a class="fancybox" href="domiverse/images/domiverse_screenshot_4.png"><img src="domiverse/images/domiverse_screenshot_4.png" alt=""/></a>
+
+                            </div>
+
+                          </div>
+                        </div>
                     </div>
                 </div>
 
                 <div id="section-characters">
                     <div>
-                        Section Characters
+                        <div id="character-tabs">
+                          <ul>
+                            <li><a href="#tabs-glo">Gl'mrph</a></li>
+                            <li><a href="#tabs-ash">Ash</a></li>
+                            <li><a href="#tabs-nili">Nili</a></li>
+                            <li><a href="#tabs-xand">Xand</a></li>
+                            <li><a href="#tabs-shluuuups">Prince Shluuuups</a></li>
+                            <li><a href="#tabs-wat">WAT</a></li>
+                            <li><a href="#tabs-snakity">Snakity</a></li>
+                            <li><a href="#tabs-uzal">Uzal</a></li>
+                          </ul>
+                          <div id="tabs-glo">
+                            <img src="domiverse/images/Glo.png" />
+                            <p>Last winner of the spit contest in his planet, he is the champion they were waiting for!
+
+Gl’mrph spit bouncing bullets and can walk on walls and ceilings.</p>
+                          </div>
+                          <div id="tabs-ash">
+                            <img src="domiverse/images/Ash.png" />
+                            <p>Cruel predator, he loves to attack weak creatures.
+
+Ash is fast and use a melee attack, he can teleport to dodge, to go trough walls and to kill.</p>
+                          </div>
+                          <div id="tabs-nili">
+                            <img src="domiverse/images/Nili.png" />
+                            <p>War hero, need his combination to breathe on the surface of his devasted planet.
+
+Nili has a great range with his gun and can burst fire. He can use his walljump to reload at a safety position.</p>
+                          </div>
+                          <div id="tabs-xand">
+                            <img src="domiverse/images/Xand.png" />
+                            <p>For centuries, people of Nili and Xand make war. He devasted Nili’s planet with his army.
+
+When xand is not using his machinegun with limited ammo, he can slice with his knife. To make it sneaky, he can drop an exploding clone while he’s moving invisible.</p>
+                          </div>
+                          <div id="tabs-shluuuups">
+                            <img src="domiverse/images/Shluuuups.png" />
+                            <p>Son of the King Shluuups, the last winner of the Domiverse, the prince Shluuuups must win the crown to keep the domination of the universe.
+
+Prince Shluuuups can load a ranged laser, but beware of the overload fart. To keep distance with the enemies, he drops paralysing mines.</p>
+                          </div>
+                          <div id="tabs-wat">
+                            <img src="domiverse/images/WAT.png" />
+                            <p>A planet populated by cowards jellyfish decided to make a clone of the last winner of the Domiverse to participate. It is how this robot is born.
+
+K.S. V-8 use his laser to burn enemies while flying trough the arena. He can surprise you with remote-controlled mines.</p>
+                          </div>
+                          <div id="tabs-snakity">
+                            <img src="domiverse/images/Snakity.png" />
+                            <p>The Snakats wants to win the Domiverse to mark territory on all planets of the universe!
+
+Snakity can combo with a jumping attack, an air flip, a dive attack or even a slide attack. Be careful of the power of love!</p>
+                          </div>
+                          <div id="tabs-uzal">
+                            <img src="domiverse/images/Uzal.png" />
+                            <p>Last living on his submerged planet after defeating one by one all the inhabitants, this starfish is the best karateka of the universe.
+
+Uzal uses his bubble to reach ennemies from a short range. He’s able to duck and counter with his legendary shoryuzal!</p>
+                          </div>
+                        </div>
                     </div>
-                </div>
-
-                <div id="mid-platform">
-                </div>
-
-                <div id="domiverse-logo">
                 </div>
 
                 <div id="social-networks">
@@ -100,27 +184,6 @@
                                    href="http://hauntedtie.com/presskit/domiverse"></a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                
-                <div id="screenshot-left">
-                    <div id="screenshot-left-content">
-                        <a class="fancybox" href="domiverse/images/domiverse_screenshot_1.png"><img src="domiverse/images/screenshot_left.png" alt=""/></a>
-
-                        <div class="hidden">
-                            <a class="fancybox" href="domiverse/images/domiverse_screenshot_2.png"><img src="domiverse/images/domiverse_screenshot_2.png" alt=""/></a>
-
-                            <a class="fancybox" href="domiverse/images/domiverse_screenshot_3.png"><img src="domiverse/images/domiverse_screenshot_3.png" alt=""/></a>
-                            <a class="fancybox" href="domiverse/images/domiverse_screenshot_4.png"><img src="domiverse/images/domiverse_screenshot_4.png" alt=""/></a>
-
-                        </div>
-
-                    </div>
-                </div>
-                
-                <div id="screenshot-right">
-                    <div id="screenshot-right-content">
-                        <a class="fancybox" href="domiverse/images/domiverse_screenshot_5.png"><img src="domiverse/images/screenshot_right.png" alt=""/></a>
                     </div>
                 </div>
 

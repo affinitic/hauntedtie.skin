@@ -98,6 +98,44 @@ div.main {
     background-image: url("images/banner_2.png");
 }
 
+.faces-link {
+    position: absolute;
+    cursor: pointer;
+}
+
+#glo-link {
+    left: 632px;
+    top: 414px;
+    width: 132px;
+    height: 66px;
+    background-image: url("images/Glo.png");
+    background-repeat: no-repeat;
+}
+#ash-link {
+    left: 632px;
+    top: 214px;
+    width: 132px;
+    height: 66px;
+    background-image: url("images/Ash.png");
+    background-repeat: no-repeat;
+}
+#nili-link {
+    left: 432px;
+    top: 214px;
+    width: 132px;
+    height: 66px;
+    background-image: url("images/Nili.png");
+    background-repeat: no-repeat;
+}
+#ash-link {
+    left: 632px;
+    top: 214px;
+    width: 132px;
+    height: 66px;
+    background-image: url("images/Ash.png");
+    background-repeat: no-repeat;
+}
+
 #section-menu {
     position: absolute;
     top: 720px;
@@ -119,17 +157,53 @@ div.main {
     color: white;
 }
 
+#section-dummy-menu {
+    width: 1280px;
+    height: 300px;
+}
+
 #section-media {
-    top: 0px;
     width: 1280px;
     height: 720px;
     background-image: url("images/section_video_bg.png");
 }
 
+#inside-media {
+    padding-top: 300px;
+    z-index -10;
+}
+
+#media-tabs {
+    list-style: none;
+}
+
+#media-tabs li{
+    display: inline;
+    margin: 0 0 15px 0;
+}
+
+#media-tabs li a{
+    color: white;
+}
+
 #section-characters {
-    top: 0px;
     width: 1280px;
     height: 300px;
+    background-color: blue;
+}
+
+#character-tabs ul{
+    list-style: none;
+    margin: 0;
+}
+
+#character-tabs li{
+    display: inline;
+    margin: 0;
+}
+
+#character-tabs li a{
+    color: white;
 }
 
 #mute-container {
@@ -209,42 +283,6 @@ div.main {
 
 #icon-press:hover {
     background-position: -64px 0;
-}
-
-#screenshot-left {
-    position: absolute;
-    left: 128px;
-    top: 190px;
-    width: 210px;
-    height: 180px;
-    background-image: url("images/screenshot_left_bg.png");
-    background-repeat: no-repeat;
-}
-
-#screenshot-left-content {
-    position: absolute;
-    left: 23px;
-    top:40px;
-    //width: 192px;
-    //height: 91px;
-}
-
-#screenshot-right {
-    position: absolute;
-    left: 960px;
-    top: 190px;
-    width: 210px;
-    height: 180px;
-    background-image: url("images/screenshot_right_bg.png");
-    background-repeat: no-repeat;
-}
-
-#screenshot-right-content {
-    position: absolute;
-    left: 23px;
-    top:40px;
-    width: 192px;
-    height: 91px;
 }
 
 #game-description {
@@ -348,25 +386,4 @@ div.main {
     color: #3fa7c0;
     font-family: pixel, sans-serif;
     font-size: 20pt;
-}
-
-#mid-platform {
-    position: absolute;
-    left: 438px;
-    top: 298px;
-    width: 412px;
-    height: 64px;
-    background-image: url("images/mid_platform.png");
-    background-repeat: no-repeat;
-}
-
-#domiverse-logo {
-    position: absolute;
-    left: 322px;
-    top: -18px;
-    width: 640px;
-    height: 360px;
-    background-image: url("images/domiverse_logo.png");
-    background-repeat: no-repeat;
-    z-index: -10;
 }
