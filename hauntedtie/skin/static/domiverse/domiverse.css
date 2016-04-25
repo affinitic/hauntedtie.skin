@@ -5,7 +5,7 @@
 
 :root {
     --header-height: 865px;
-    --min-width: 1205px;
+    --min-width: 1280px;
 }
 
 .center {
@@ -35,7 +35,7 @@ input, textarea {
     font-size: 10pt;
 }
 body.homepage {
-    background-color: green;
+    background-color: rgb(34, 23, 35);
 }
 
 body.template-domiverse_homepage_view {
@@ -77,6 +77,9 @@ div.main {
     min-width: var(--min-width);
 }
 
+
+/* BANNER */
+
 #section-header {
     top: 0px;
     width: 100%;
@@ -85,7 +88,7 @@ div.main {
 
 #section-header-faces {
     bottom: 0px;
-    width: 1205px;
+    width: var(--min-width);
     height: 456px;
     margin: 0 auto;
     position: relative;
@@ -112,40 +115,25 @@ div.main {
     background-image: url("images/banner_2.png");
 }
 
+    /* HIDDEN CHARACTERS BUTTONS */
+
 .faces-link {
     position: absolute;
     cursor: pointer;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0);
 }
 
-#glo-link {
-    left: 632px;
-    top: 414px;
-    width: 132px;
-    height: 66px;
-    background-repeat: no-repeat;
-}
-#ash-link {
-    left: 632px;
-    top: 214px;
-    width: 132px;
-    height: 66px;
-    background-repeat: no-repeat;
-}
-#nili-link {
-    left: 432px;
-    top: 214px;
-    width: 132px;
-    height: 66px;
-    background-repeat: no-repeat;
-}
-#ash-link {
-    left: 632px;
-    top: 214px;
-    width: 132px;
-    height: 66px;
-    background-repeat: no-repeat;
-}
+#nili-link      { left: 47px; top: 606px; width: 123px; height: 255px; }
+#ash-link       { left: 172px; top: 726px; width: 168px; height: 135px; }
+#wat-link       { left: 219px; top: 464px; width: 122px; height: 256px; }
+#glo-link       { left: 346px; top: 524px; width: 190px; height: 246px; }
+#snakity-link   { left: 742px; top: 434px; width: 198px; height: 216px; }
+#uzal-link      { left: 909px; top: 667px; width: 158px; height: 196px; }
+#shluuuups-link { left: 997px; top: 416px; width: 88px; height: 248px; }
+#xand-link      { left: 1088px; top: 633px; width: 132px; height: 230px; }
+
+
+/* MENU */
 
 #section-menu {
     position: absolute;
@@ -155,30 +143,159 @@ div.main {
     background-image: url("images/menu_bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 100;
 }
 
-#nav{
-    list-style: none;
-}
-
-#nav li{
-    display: inline;
-    margin: 0 0 15px 0;
-}
-
-#nav li a{
-    color: white;
+#section-menu-inside {
+    top: 0px;
+    width: var(--min-width);
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #section-dummy-menu {
-    width: 1280px;
-    height: 300px;
+    width: 100%;
+    height: 188px;
 }
 
+    /* SOCIAL NETWORK */
+
+#social-networks {
+    position: absolute;
+    left: 29px;
+    top: 32px;
+    width: 350px;
+    height: 90px;
+}
+
+#social-networks-icons {
+    position: absolute;
+}
+
+#social-networks-icons ul {
+    display: inline;
+    list-style: outside none none;
+    padding: 0;
+}
+
+#social-networks-icons ul li {
+    display: inline-block;
+    padding-right: 3px;
+}
+
+#social-networks-icons ul li a {
+    color: #ddd !important;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+}
+
+#icon-facebook       { background-image: url("images/menu_fb_grey.png"); }
+#icon-facebook:hover { background-image: url("images/menu_fb.png"); }
+#icon-twitter        { background-image: url("images/menu_twitter_grey.png"); }
+#icon-twitter:hover  { background-image: url("images/menu_twitter.png"); }
+#icon-youtube        { background-image: url("images/menu_youtube_grey.png"); }
+#icon-youtube:hover  { background-image: url("images/menu_youtube.png"); }
+#icon-press          { background-image: url("images/menu_presskit_grey.png"); }
+#icon-press:hover    { background-image: url("images/menu_presskit.png"); }
+#icon-mail           { background-image: url("images/menu_mail_grey.png"); }
+#icon-mail:hover     { background-image: url("images/menu_mail.png"); }
+#icon-tumblr         { background-image: url("images/menu_tumblr_grey.png"); }
+#icon-tumblr:hover   { background-image: url("images/menu_tumblr.png"); }
+
+    /* MENU TEXTE */
+
+#menu-principal {
+    position: absolute;
+    left: 343px;
+    top: 32px;
+    width: 800px;
+    height: 90px;
+}
+
+#menu-principal-icons {
+    position: absolute;
+}
+
+#menu-principal-icons ul {
+    display: inline;
+    list-style: outside none none;
+    padding: 0;
+}
+
+#menu-principal-icons ul li {
+    display: inline-block;
+    padding-right: 13px;
+}
+
+#menu-principal-icons ul li a {
+    color: #ddd !important;
+    display: block;
+    height: 36px;
+    background-repeat: no-repeat;
+}
+#icon-media          { width: 129px; background-image: url("images/menu_principal_media_out.png"); }
+#icon-media:hover    { width: 129px; background-image: url("images/menu_principal_media_in.png"); }
+#icon-fighters       { width: 187px; background-image: url("images/menu_principal_fighters_out.png"); }
+#icon-fighters:hover { width: 187px; background-image: url("images/menu_principal_fighters_in.png"); }
+#icon-comics         { width: 154px; background-image: url("images/menu_principal_comics_out.png"); }
+#icon-comics:hover   { width: 154px; background-image: url("images/menu_principal_comics_in.png"); }
+#icon-shop           { width: 104px; background-image: url("images/menu_principal_shop_out.png"); }
+#icon-shop:hover     { width: 104px; background-image: url("images/menu_principal_shop_in.png"); }
+
+    /* DEMO */
+
+#demo {
+    position: absolute;
+    left: 104px;
+    top: 79px;
+    width: 195px;
+    height: 47px;
+}
+#demo a {
+    color: #ddd !important;
+    display: block;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-image: url("images/menu_demo.png");
+}
+
+    /* GREENLIGHT */
+
+#greenlight {
+    position: absolute;
+    left: 1009px;
+    top: 32px;
+    width: 235px;
+    height: 124px;
+}
+#greenlight a {
+    color: #ddd !important;
+    display: block;
+    height: 124px;
+    background-repeat: no-repeat;
+    background-image: url("images/menu_greenlight.png");
+}
+
+
+/* MEDIA SECTION */
+
 #section-media {
-    width: 1280px;
+    width: 100%;
     height: 800px;
     background-image: url("images/section_video_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-media-inside {
+    top: 0px;
+    width: var(--min-width);
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #media-tabs ul{
@@ -195,104 +312,37 @@ div.main {
     color: white;
 }
 
-#section-characters {
-    width: 1280px;
+
+/* FIGHTERS SECTION */
+
+#section-fighters {
+    width: 100%;
     height: 300px;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
 
-#character-tabs ul{
+#section-fighters-inside {
+    top: 0px;
+    width: var(--min-width);
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#fighters-tabs ul{
     list-style: none;
     margin: 0;
 }
 
-#character-tabs li{
+#fighters-tabs li{
     display: inline;
     margin: 0;
 }
 
-#character-tabs li a{
+#fighters-tabs li a{
     color: white;
 }
 
-#mute-container {
-    position: absolute;
-    left: 1160px;
-    top: 20px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-#social-networks {
-    position: absolute;
-    left: 98px;
-    top: 55px;
-    width: 350px;
-    height: 90px;
-/*    background-image: url("images/social_network_bg.png");*/
-/*    background-repeat: no-repeat;*/
-}
-
-#social-networks-icons {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-}
-
-#social-networks-icons ul {
-    display: inline;
-    list-style: outside none none;
-    padding: 0;
-}
-
-#social-networks-icons ul li {
-    display: inline-block;
-    padding-left: 10px;
-}
-
-#social-networks-icons ul li a {
-    color: #ddd !important;
-    display: block;
-    width: 64px;
-    height: 62px;
-}
-
-#icon-facebook {
-    background-image: url("images/icon_facebook.png");
-    background-repeat: no-repeat;
-}
-
-#icon-facebook:hover {
-    background-position: -64px 0;
-}
-
-#icon-twitter {
-    background-image: url("images/icon_twitter.png");
-    background-repeat: no-repeat;
-}
-
-#icon-twitter:hover {
-    background-position: -64px 0;
-}
-
-#icon-youtube {
-    background-image: url("images/icon_youtube.png");
-    background-repeat: no-repeat;
-}
-
-#icon-youtube:hover {
-    background-position: -64px 0;
-}
-
-#icon-press {
-    background-image: url("images/icon_press.png");
-    background-repeat: no-repeat;
-}
-
-#icon-press:hover {
-    background-position: -64px 0;
-}
 
 #game-description {
     position: absolute;

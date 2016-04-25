@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
         $('html,body').animate({scrollTop: aTag.offset().top - menu.height()},'slow');
     }
 
-    $("#nav a").click(function(e) {
+    $("#menu-principal a").click(function(e) {
         e.preventDefault();
         href = $(this).attr('href');
         scrollToAnchor(href);
@@ -62,14 +62,14 @@ jQuery(document).ready(function ($) {
     $( "#media-tabs" ).tabs({
         activate: activateMediaTab
     });
-    $( "#character-tabs" ).tabs();
+    $( "#fighters-tabs" ).tabs();
 
     // Faces link
     $(".faces-link").click(function(){
         href = $(this).attr('href');
-        scrollToAnchor("#section-characters");
-        var index = $('#character-tabs a[href="'+href+'"]').parent().index();
-        $( "#character-tabs" ).tabs( "option", "active", index );
+        scrollToAnchor("#section-fighters");
+        var index = $('#fighters-tabs a[href="'+href+'"]').parent().index();
+        $( "#fighters-tabs" ).tabs( "option", "active", index );
     });
 
     jQuery('#GIGI').click(function(){
