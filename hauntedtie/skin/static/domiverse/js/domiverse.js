@@ -38,12 +38,14 @@ jQuery(document).ready(function ($) {
     // Fix menu to top
     $(window).scroll(function(e){
       var $el = $('#section-menu');
-      if ($(this).scrollTop() > 720){
+      var headerHeight = $('#section-header').css('height');
+      var headerHeightInt = $('#section-header').height();
+      if ($(this).scrollTop() > headerHeightInt){
         $el.css({'position': 'fixed', 'top': '0px'});
       }
-      if ($(this).scrollTop() < 720)
+      if ($(this).scrollTop() < headerHeightInt)
       {
-        $el.css({'position': 'absolute', 'top': '720px'});
+        $el.css({'position': 'absolute', 'top': headerHeight});
       }
     });
 
