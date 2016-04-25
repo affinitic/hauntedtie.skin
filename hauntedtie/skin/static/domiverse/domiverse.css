@@ -173,36 +173,31 @@ div.main {
     position: absolute;
 }
 
-#social-networks-icons ul {
-    display: inline;
-    list-style: outside none none;
-    padding: 0;
-}
-
-#social-networks-icons ul li {
-    display: inline-block;
-    padding-right: 3px;
-}
-
-#social-networks-icons ul li a {
-    color: #ddd !important;
-    display: block;
+#social-networks-icons div {
+    position: absolute;
     width: 36px;
     height: 36px;
     background-repeat: no-repeat;
 }
 
-#icon-facebook       { background-image: url("images/menu_fb_grey.png"); }
+#social-networks-icons div a{
+    display: block;
+    color: #ddd !important;
+    width: 36px;
+    height: 36px;
+}
+
+#icon-facebook       { left: 0px; background-image: url("images/menu_fb_grey.png"); }
 #icon-facebook:hover { background-image: url("images/menu_fb.png"); }
-#icon-twitter        { background-image: url("images/menu_twitter_grey.png"); }
+#icon-twitter        { left: 44px; background-image: url("images/menu_twitter_grey.png"); }
 #icon-twitter:hover  { background-image: url("images/menu_twitter.png"); }
-#icon-youtube        { background-image: url("images/menu_youtube_grey.png"); }
+#icon-youtube        { left: 88px; background-image: url("images/menu_youtube_grey.png"); }
 #icon-youtube:hover  { background-image: url("images/menu_youtube.png"); }
-#icon-press          { background-image: url("images/menu_presskit_grey.png"); }
+#icon-press          { left: 132px; background-image: url("images/menu_presskit_grey.png"); }
 #icon-press:hover    { background-image: url("images/menu_presskit.png"); }
-#icon-mail           { background-image: url("images/menu_mail_grey.png"); }
+#icon-mail           { left: 176px; background-image: url("images/menu_mail_grey.png"); }
 #icon-mail:hover     { background-image: url("images/menu_mail.png"); }
-#icon-tumblr         { background-image: url("images/menu_tumblr_grey.png"); }
+#icon-tumblr         { left: 220px; background-image: url("images/menu_tumblr_grey.png"); }
 #icon-tumblr:hover   { background-image: url("images/menu_tumblr.png"); }
 
     /* MENU TEXTE */
@@ -219,30 +214,25 @@ div.main {
     position: absolute;
 }
 
-#menu-principal-icons ul {
-    display: inline;
-    list-style: outside none none;
-    padding: 0;
-}
-
-#menu-principal-icons ul li {
-    display: inline-block;
-    padding-right: 13px;
-}
-
-#menu-principal-icons ul li a {
-    color: #ddd !important;
-    display: block;
+#menu-principal-icons div {
+    position: absolute;
     height: 36px;
     background-repeat: no-repeat;
 }
-#icon-media          { width: 129px; background-image: url("images/menu_principal_media_out.png"); }
+
+#menu-principal-icons div a {
+    display: block;
+    color: #ddd !important;
+    height: 36px;
+}
+
+#icon-media          { width: 129px; left: 0px; background-image: url("images/menu_principal_media_out.png"); }
 #icon-media:hover    { width: 129px; background-image: url("images/menu_principal_media_in.png"); }
-#icon-fighters       { width: 187px; background-image: url("images/menu_principal_fighters_out.png"); }
+#icon-fighters       { width: 187px; left: 147px; background-image: url("images/menu_principal_fighters_out.png"); }
 #icon-fighters:hover { width: 187px; background-image: url("images/menu_principal_fighters_in.png"); }
-#icon-comics         { width: 154px; background-image: url("images/menu_principal_comics_out.png"); }
+#icon-comics         { width: 154px; left: 352px; background-image: url("images/menu_principal_comics_out.png"); }
 #icon-comics:hover   { width: 154px; background-image: url("images/menu_principal_comics_in.png"); }
-#icon-shop           { width: 104px; background-image: url("images/menu_principal_shop_out.png"); }
+#icon-shop           { width: 104px; left: 524px; background-image: url("images/menu_principal_shop_out.png"); }
 #icon-shop:hover     { width: 104px; background-image: url("images/menu_principal_shop_in.png"); }
 
     /* DEMO */
