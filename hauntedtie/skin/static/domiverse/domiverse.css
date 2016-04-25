@@ -139,7 +139,7 @@ div.main {
     position: absolute;
     top: var(--header-height);
     width: 100%;
-    height: 188px;
+    height: 168px;
     background-image: url("images/menu_bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -156,7 +156,7 @@ div.main {
 
 #section-dummy-menu {
     width: 100%;
-    height: 188px;
+    height: 168px;
 }
 
     /* SOCIAL NETWORK */
@@ -164,7 +164,7 @@ div.main {
 #social-networks {
     position: absolute;
     left: 29px;
-    top: 32px;
+    top: 16px;
     width: 350px;
     height: 90px;
 }
@@ -210,7 +210,7 @@ div.main {
 #menu-principal {
     position: absolute;
     left: 343px;
-    top: 32px;
+    top: 16px;
     width: 800px;
     height: 90px;
 }
@@ -250,7 +250,7 @@ div.main {
 #demo {
     position: absolute;
     left: 104px;
-    top: 79px;
+    top: 63px;
     width: 195px;
     height: 47px;
 }
@@ -267,7 +267,7 @@ div.main {
 #greenlight {
     position: absolute;
     left: 1009px;
-    top: 32px;
+    top: 16px;
     width: 235px;
     height: 124px;
 }
