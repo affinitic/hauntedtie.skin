@@ -29,12 +29,6 @@ input, textarea {
     font-family: verdana;
     font-size: 10pt;
 }
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 body.homepage {
     background-color: green;
 }
