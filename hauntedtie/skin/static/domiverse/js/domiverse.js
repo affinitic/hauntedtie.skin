@@ -17,9 +17,9 @@ jQuery(document).ready(function ($) {
     });
 
     // Add parallax to banner
-    $("#banner-0").parallax("100%", -0.3);
-    $("#banner-1").parallax("100%", -0.15);
-    $("#banner-2").parallax("100%", 0);
+    $("#banner-0").parallax("center", -0.3);
+    $("#banner-1").parallax("center", -0.15);
+    $("#banner-2").parallax("center", 0);
 
     // Menu scroll to anchor
     function scrollToAnchor(selector){
