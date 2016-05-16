@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
     <head>
@@ -26,8 +27,14 @@
 
         <!-- Add domiverse library -->
         <link rel="stylesheet" type="text/css" href="domiverse/domiverse.css">
-        <script src="domiverse/js/domiverse-youtube.js"></script>
         <script src="domiverse/js/domiverse.js"></script>
+        <script>
+          // This script is not working on IE and Edge
+          if (navigator.userAgent.match(/Edge/) === null &&
+            navigator.userAgent.match(/\.NET/) === null) {
+            jQuery.getScript("domiverse/js/domiverse-youtube.js");
+          }
+        </script>
 
         <!-- Parallax -->
         <script type="text/javascript" src="domiverse/js/jquery.parralax-1.1.3.js"></script>
@@ -229,7 +236,7 @@ Uzal uses his bubble to reach ennemies from a short range. He’s able to duck a
                 </div>
 
                 <div id="contact">
-                    <a name="id3"/>
+                    <a name="id3"></a>
 
                     <div id="contact-content">
                         See domiverse_document_view
