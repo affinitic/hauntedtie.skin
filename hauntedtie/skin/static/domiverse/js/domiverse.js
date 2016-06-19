@@ -59,9 +59,6 @@ jQuery(document).ready(function ($) {
             pauseDomiverseVideo();
         }
     }
-    $( "#media-tabs" ).tabs({
-        activate: activateMediaTab
-    });
     $( "#fighters-tabs" ).tabs();
 
     // Faces link
@@ -72,7 +69,4 @@ jQuery(document).ready(function ($) {
         $( "#fighters-tabs" ).tabs( "option", "active", index );
     });
 
-    jQuery('#GIGI').click(function(){
-        pauseDomiverseVideo();
-    });
 });

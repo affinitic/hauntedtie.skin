@@ -52,15 +52,15 @@ div.main {
 }
 
 #video-bg {
-    width: 1280px;
-    height: 720px;
+    width: 960px;
+    height: 540px;
     z-index: -1;
 }
 
 #domiverse-video {
     position: absolute;
-    width: 1280px;
-    height: 720px;
+    width: 960px;
+    height: 540px;
     background-color: #0e2129;
     background-image: url("images/video_background.png");
 }
@@ -149,7 +149,7 @@ div.main {
     position: absolute;
     top: 754px;
     width: 100%;
-    height: 168px;
+    height: 126px;
     background-image: url("images/menu_bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -166,7 +166,7 @@ div.main {
 
 #section-dummy-menu {
     width: 100%;
-    height: 168px;
+    height: 126px;
 }
 
     /* SOCIAL NETWORK */
@@ -269,12 +269,12 @@ div.main {
     left: 1009px;
     top: 16px;
     width: 235px;
-    height: 124px;
+    height: 92px;
 }
 #greenlight a {
     color: #ddd !important;
     display: block;
-    height: 124px;
+    height: 92px;
     background-repeat: no-repeat;
     background-image: url("images/menu_greenlight.png");
 }
@@ -284,34 +284,32 @@ div.main {
 
 #section-media {
     width: 100%;
-    height: 800px;
-    background-image: url("images/section_video_bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 820px;
 }
 
 #section-media-inside {
-    top: 0px;
-    width: 1280px;
+    top: 32px;
+    width: 960px;
     height: 100%;
     margin: 0 auto;
     position: relative;
 }
 
-#media-tabs ul{
-    list-style: none;
+#section-media-screenshots {
+    top: 27px;
+    position: relative;
+    width: 960px;
+}
+
+#section-media-screenshots ul{
+    padding: 0;
     margin: 0;
 }
-
-#media-tabs li{
+#section-media-screenshots li{
     display: inline;
-    margin: 0 0 15px 0;
+    margin: 0;
+    width: 236px;
 }
-
-#media-tabs li a{
-    color: white;
-}
-
 
 /* FIGHTERS SECTION */
 
