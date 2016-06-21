@@ -4,15 +4,28 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+var domiversevideos = [];
+
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.
 var domiverseYoutubePlayer;
 function onYouTubeIframeAPIReady() {
-domiverseYoutubePlayer = new YT.Player('domiverse-youtube-video', {
-  events: {
-    'onReady': onPlayerReady
-  }
-});
+    var tuto_ids = ['tuto-nili',
+                    'tuto-glo',
+                    'tuto-ash',
+                    'tuto-xand',
+                    'tuto-shluuuups',
+                    'tuto-wat',
+                    'tuto-snakity',
+                    'tuto-uzal'];
+    for (tuto_id of tuto_ids)
+    {
+        domiversevideos.push(new YT.Player(tuto_id, {
+          events: {
+            'onReady': onPlayerReady
+          }
+        }));
+    }
 }
 
 // 4. The API will call this function when the video player is ready.
@@ -20,13 +33,23 @@ function onPlayerReady(event) {
 }
 
 function stopDomiverseVideo() {
-    domiverseYoutubePlayer.stopVideo();
+    for (video of domiversevideos)
+    {
+        video.stopVideo();
+    }
 }
 
 function pauseDomiverseVideo() {
-    domiverseYoutubePlayer.pauseVideo();
+    for (video of domiversevideos)
+    {
+    if (video.getPlayerState() === 1)
+        video.pauseVideo();
+    }
 }
 
 function playDomiverseVideo() {
-    domiverseYoutubePlayer.playVideo();
+    for (video of domiversevideos)
+    {
+        video.playVideo();
+    }
 }

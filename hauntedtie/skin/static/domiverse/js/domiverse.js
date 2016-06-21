@@ -69,4 +69,8 @@ jQuery(document).ready(function ($) {
         $( "#fighters-tabs" ).tabs( "option", "active", index );
     });
 
+    $('#fighters-tabs-faces a').click(function(){
+        pauseDomiverseVideo();
+    });
+
 });

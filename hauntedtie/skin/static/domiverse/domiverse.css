@@ -1,6 +1,6 @@
 @font-face {
     font-family: pixel;
-    src: url("mecha.ttf") format('truetype');
+    src: url("pixel.ttf") format('truetype');
 }
 
 .center {
@@ -21,23 +21,16 @@ h2 {
     margin: 0;
 }
 
-input, textarea {
-    background-color: #38515a;
-    border: 2px solid #3d5c66;
-    color: #3fa7c0;
-    padding-left: 5px;
-    font-family: verdana;
-    font-size: 10pt;
-}
 body.homepage {
     background-color: rgb(34, 23, 35);
+    font-family: "pixel", sans-serif;
+    font-size: 20px;
 }
 
 body.template-domiverse_homepage_view {
     border: 0;
     margin: 0;
     background-color: #33464d;
-    font-family: "pixel", sans-serif;
     color: #3fa7c0;
 }
 
@@ -318,6 +311,7 @@ div.main {
     width: 100%;
     height: 820px;
     background-color: rgb(76, 41, 100);
+    color: white;
 }
 
 #section-fighters-inside {
@@ -329,24 +323,24 @@ div.main {
     background-image: url("images/characters_background.png");
 }
 
-#fighters-tabs ul{
-    list-style: none;
-    margin: 0;
-    font-size: 0;
+#fighters-tabs-faces {
+    padding-top: 6px;
+    padding-left: 6px;
 }
 
-#fighters-tabs li{
+#fighters-tabs-faces li{
     display: inline;
     margin: 0 8px 0 0;
 }
 
-#fighters-tabs li a{
+#fighters-tabs-faces li a{
     color: white;
 }
 
-#fighters-tabs-faces {
-    padding-top: 6px;
-    padding-left: 6px;
+ul#fighters-tabs-faces {
+    list-style: none;
+    margin: 0;
+    font-size: 0;
 }
 
 #fighters-tabs-faces div{
@@ -354,105 +348,69 @@ div.main {
     margin-right: 8px;
 }
 
-#game-description {
+#section-fighters .name {
     position: absolute;
-    left: 128px;
-    top: 3014px;
-    width: 330px;
-    height: 210px;
-    background-image: url("images/game_description_bg.png");
-    background-repeat: no-repeat;
+    top: 110px;
+    left: 50px;
+    font-size: 40px;
 }
 
-#game-description-content {
+#section-fighters .idle {
     position: absolute;
-    left: 30px;
-    top: 40px;
-    width: 274px;
-    height: 132px;
-    font-size: 12pt;
-    line-height: 16px;
+    top: 178px;
+    left: 140px;
 }
 
-#game-description-content .subtitle {
-    font-size: 15pt;
-}
-
-#newsletter {
+#section-fighters .description {
     position: absolute;
-    left: 514px;
-    top: 3010px;
-    width: 260px;
-    height: 110px;
-    background-image: url("images/newsletter_bg.png");
-    background-repeat: no-repeat;
+    top: 362px;
+    left: 21px;
+    font-size: 20px;
+    width: 921px;
 }
 
-#newsletter-content {
+#section-fighters .plus_title {
     position: absolute;
-    left: 27px;
-    top: 12px;
-    width: 274px;
-    height: 132px;
-    font-size: 12pt;
-    line-height: 16px;
+    top: 480px;
+    left: 35px;
+    width: 100px;
+    color: rgb(91, 187, 127);
 }
 
-#newsletter-content .text-input {
-    width: 150px;
-    height: 22px;
-}
-
-#newsletter-content .button-input {
-    height: 26px;
-    padding-right: 5px;
-}
-
-#contact {
+#section-fighters .plus_description {
     position: absolute;
-    left: 832px;
-    top: 3014px;
-    width: 330px;
-    height: 210px;
-    background-image: url("images/contact_bg.png");
-    background-repeat: no-repeat;
+    top: 510px;
+    left: 20px;
+    width: 437px;
+    color: rgb(91, 187, 127);
 }
 
-#contact-content {
+#section-fighters .plus_description ul {
+    list-style-type: square;
+}
+
+#section-fighters .minus_title {
     position: absolute;
-    left: 30px;
-    top: 15px;
-    width: 320px;
-    height: 192px;
+    top: 480px;
+    left: 516px;
+    width: 100px;
+    color: rgb(181, 59, 42);
 }
 
-#contact-content .text-input {
-    width: 200px;
-    margin-bottom: 10px;
-    height: 22px;
-}
-
-#contact-content .text-area {
-    width: 200px;
-    height: 77px;
-    bottom: 0;
-}
-
-#contact-send-button {
-    padding: 0;
-    margin: 0;
+#section-fighters .minus_description {
     position: absolute;
-    left: 212px;
-    bottom: 35px;
+    top: 510px;
+    left: 501px;
+    width: 437px;
+    color: rgb(181, 59, 42);
 }
 
-#contact-send-button input {
-    height: 40px;
-    padding-right: 5px;
+#section-fighters .minus_description ul {
+    list-style-type: square;
 }
 
-#domiverse-website h2 {
-    color: #3fa7c0;
-    font-family: pixel, sans-serif;
-    font-size: 20pt;
+#section-fighters .video {
+    position: absolute;
+    top: 100px;
+    left: 480px;
 }
