@@ -25,10 +25,17 @@ jQuery(document).ready(function ($) {
     function scrollToAnchor(selector){
         var aTag = $(selector);
         var menu = $("#section-menu");
-        $('html,body').animate({scrollTop: aTag.offset().top - menu.height()},'slow');
+        $('html,body').animate({scrollTop: aTag.offset().top - menu.height()},'slow')
     }
 
     $("#menu-principal a").click(function(e) {
+        e.preventDefault();
+        href = $(this).attr('href');
+        scrollToAnchor(href);
+        return false;
+    });
+
+    $("#icon-backtotop a").click(function(e) {
         e.preventDefault();
         href = $(this).attr('href');
         scrollToAnchor(href);
