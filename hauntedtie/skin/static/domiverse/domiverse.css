@@ -21,6 +21,10 @@ h2 {
     margin: 0;
 }
 
+a {
+    outline: 0;
+}
+
 body.homepage {
     background-color: rgb(34, 23, 35);
     font-family: "pixel", sans-serif;
@@ -333,20 +337,34 @@ div.main {
     margin: 0 8px 0 0;
 }
 
-#fighters-tabs-faces li a{
-    color: white;
-}
-
 ul#fighters-tabs-faces {
     list-style: none;
     margin: 0;
     font-size: 0;
 }
 
-#fighters-tabs-faces div{
-    float:left;
-    margin-right: 8px;
+#fighters-tabs-faces li div {
+    display: inline-block;
+    width: 60px;
+    height: 58px;
+    cursor: pointer;
 }
+
+#fighters-tabs-faces li div:hover,
+#fighters-tabs-faces li.ui-tabs-active div{
+    background-position: -60px;
+}
+
+#fighters-tabs-faces li div.nili { background-image: url("images/characters_nili_face.png"); }
+#fighters-tabs-faces li div.glo { background-image: url("images/characters_glo_face.png"); }
+#fighters-tabs-faces li div.ash { background-image: url("images/characters_ash_face.png"); }
+#fighters-tabs-faces li div.xand { background-image: url("images/characters_xand_face.png"); }
+#fighters-tabs-faces li div.shluuuups { background-image: url("images/characters_shluuuups_face.png"); }
+#fighters-tabs-faces li div.wat { background-image: url("images/characters_w8t_face.png"); }
+#fighters-tabs-faces li div.snakity { background-image: url("images/characters_snakity_face.png"); }
+#fighters-tabs-faces li div.uzal { background-image: url("images/characters_uzal_face.png"); }
+#fighters-tabs-faces li div.patator { background-image: url("images/characters_patator_face.png"); }
+#fighters-tabs-faces li div.block { background-image: url("images/characters_block_face.png"); }
 
 #section-fighters .name {
     position: absolute;
@@ -357,7 +375,7 @@ ul#fighters-tabs-faces {
 
 #section-fighters .idle {
     position: absolute;
-    top: 178px;
+    top: 182px;
     left: 140px;
 }
 
@@ -411,6 +429,81 @@ ul#fighters-tabs-faces {
 
 #section-fighters .video {
     position: absolute;
-    top: 100px;
-    left: 480px;
+    top: 104px;
+    left: 476px;
+}
+
+/* COMICS SECTION */
+
+#section-comics {
+    width: 100%;
+    height: 820px;
+    background-color: rgb(123, 49, 161);
+    color: white;
+}
+
+#section-comics-inside {
+    top: 59px;
+    width: 960px;
+    height: 728px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#section-comics-main {
+    top: 0;
+    position: absolute;
+    width: 496px;
+    height: 702px;
+}
+
+#section-comics-small {
+    position: absolute;
+    left: 507px;
+    width: 223px;
+    top: 0;
+    height: 316px;
+}
+
+#section-comics-small .other{
+    position: absolute;
+    left: 60px;
+    width: 340px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#section-comics-small .covers{
+    position: absolute;
+    top: 63px;
+}
+
+#section-comics-small .cover{
+    position: absolute;
+    width: 223px;
+    height: 316px;
+}
+
+#section-comics-small .cover1{
+    left: 0;
+    top: 0;
+}
+#section-comics-small .cover2{
+    left: 230px;
+    top: 0;
+}
+#section-comics-small .cover3{
+    left: 0;
+    top: 323px;
+}
+#section-comics-small .cover4{
+    left: 230px;
+    top: 323px;
+}
+
+#covers-groups > div{
+    display: none;
+}
+#covers-groups > div.current{
+    display: block;
 }
