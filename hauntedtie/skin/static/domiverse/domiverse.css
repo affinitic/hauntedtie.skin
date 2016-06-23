@@ -458,6 +458,12 @@ ul#fighters-tabs-faces {
     left: 476px;
 }
 
+#section-fighters .video.empty {
+    background-image: url("images/snow_screen.gif");
+    width: 480px;
+    height: 270px;
+}
+
 /* COMICS SECTION */
 
 #section-comics {

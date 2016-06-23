@@ -18,8 +18,9 @@ function onYouTubeIframeAPIReady() {
                     'tuto-wat',
                     'tuto-snakity',
                     'tuto-uzal',
-                    'tuto-patator',
-                    'tuto-block'];
+                    //'tuto-patator',
+                    //'tuto-block',
+                    ];
     for (tuto_id of tuto_ids)
     {
         domiversevideos.push(new YT.Player(tuto_id, {
