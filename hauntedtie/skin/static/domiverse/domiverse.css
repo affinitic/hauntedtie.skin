@@ -224,6 +224,7 @@ div.main {
     width: 64px;
     height: 66px;
     z-index: 1000;
+    display: none;
 }
 #icon-backtotop a {
     width: 64px;

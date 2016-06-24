@@ -45,14 +45,17 @@ jQuery(document).ready(function ($) {
     // Fix menu to top
     $(window).scroll(function(e){
       var $el = $('#section-menu');
+      var $backtotop = $('#icon-backtotop');
       var headerHeight = $('#section-header').css('height');
       var headerHeightInt = $('#section-header').height();
       if ($(this).scrollTop() > headerHeightInt){
         $el.css({'position': 'fixed', 'top': '0px'});
+        $backtotop.fadeIn(400);
       }
       if ($(this).scrollTop() < headerHeightInt)
       {
         $el.css({'position': 'absolute', 'top': headerHeight});
+        $backtotop.fadeOut(400);
       }
     });
 
