@@ -32,15 +32,4 @@
     <copy attributes="xmlns lang xml:lang" content="/html" theme="/html" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
-    <!--<replace css:content-children="#content-core"-->
-             <!--css:theme-children="#game-description-content" />-->
-
-    <!--<replace css:content-children="#newsletter-content"-->
-             <!--css:theme-children="#newsletter-content" />-->
-
-    <!--<replace css:content-children="#contact-content"-->
-             <!--css:theme-children="#contact-content" />-->
-
-    <!--<drop css:theme="#hauntedtie-slider" if-path="societe" />-->
-
 </rules>

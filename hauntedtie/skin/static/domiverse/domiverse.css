@@ -3,6 +3,13 @@
     src: url("pixel.ttf") format('truetype');
 }
 
+#domiverse-website input {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+            font-family: "pixel", sans-serif;
+}
+
 .center {
     left: 0;
     right: 0;
@@ -25,10 +32,13 @@ a {
     outline: 0;
 }
 
-body.homepage {
+body {
     background-color: rgb(34, 23, 35);
-    font-family: "pixel", sans-serif;
     font-size: 20px;
+}
+
+#domiverse-website {
+    font-family: "pixel", sans-serif;
 }
 
 body.template-domiverse_homepage_view {
@@ -39,7 +49,7 @@ body.template-domiverse_homepage_view {
 }
 
 #domiverse-website input[type="text"]:focus, #domiverse-website input[type="password"]:focus, #domiverse-website textarea:focus {
-    background-color: #3d5c66;
+    //background-color: #3d5c66;
 }
 
 div.main {
@@ -407,7 +417,7 @@ ul#fighters-tabs-faces {
 
 #section-fighters .description {
     position: absolute;
-    top: 362px;
+    top: 383px;
     left: 21px;
     font-size: 20px;
     width: 921px;
@@ -604,3 +614,20 @@ ul#fighters-tabs-faces {
     text-align: center;
 }
 
+#newsletter input {
+    border: 2px solid #00657F;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#newsletter input[type=text] {
+    height: 30px;
+    width: 330px;
+    padding: 0 6px 2px 6px;
+}
+#newsletter input[type=submit] {
+    height: 36px;
+    padding: 0 6px 2px 6px;
+}
