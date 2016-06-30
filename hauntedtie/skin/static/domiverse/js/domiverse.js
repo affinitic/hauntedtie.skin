@@ -69,14 +69,20 @@ jQuery(document).ready(function ($) {
             pauseDomiverseVideo();
         }
     }
-    $( "#fighters-tabs" ).tabs();
+
+    // Fix error tabs is loading the whole page: http://stackoverflow.com/questions/13837304/jquery-ui-non-ajax-tab-loading-whole-website-into-itself
+    $("#fighters-tabs ul li a").each(function() {
+        $(this).attr("href", location.href.toString()+$(this).attr("href"));
+});
+    // I renamed jquery ui "ui.tabs" onto "ui.tabsui" to not conflict with jquery tools of plone
+    $( "#fighters-tabs" ).tabsui();
 
     // Faces link
     $(".faces-link").click(function(){
         href = $(this).attr('href');
         scrollToAnchor("#section-fighters");
         var index = $('#fighters-tabs a[href="'+href+'"]').parent().index();
-        $( "#fighters-tabs" ).tabs( "option", "active", index );
+        $( "#fighters-tabs" ).tabsui( "option", "active", index );
     });
 
     $('#fighters-tabs-faces a').click(function(){

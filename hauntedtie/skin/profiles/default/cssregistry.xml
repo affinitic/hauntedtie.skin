@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_css">
-    <stylesheet title="Skin package for hauntedtie website Styles"
+    <stylesheet title="hauntedtie.skin Styles"
                 id="++theme++hauntedtie.skin/css/style.css"
                 media="screen"
                 rel="stylesheet"
@@ -21,5 +21,25 @@
                 cookable="True"
                 enabled="1"
                 expression=""/>
+
+  <stylesheet
+    id="++theme++hauntedtie.skin/domiverse/domiverse.css"
+    applyPrefix="1"
+    media=""/>
+
+  <stylesheet
+    id="++theme++hauntedtie.skin/fancybox/source/helpers/jquery.fancybox-buttons.css"
+    applyPrefix="1"
+    media=""/>
+
+  <stylesheet
+    id="++theme++hauntedtie.skin/fancybox/source/helpers/jquery.fancybox-thumbs.css"
+    applyPrefix="1"
+    media=""/>
+
+  <stylesheet
+    id="++theme++hauntedtie.skin/fancybox/source/jquery.fancybox.css"
+    applyPrefix="1"
+    media=""/>
 
 </object>

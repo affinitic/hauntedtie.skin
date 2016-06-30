@@ -2,7 +2,7 @@
 <object name="portal_skins"
         allow_any="False"
         cookie_persistence="False"
-        default_skin="Skin package for hauntedtie website">
+        default_skin="hauntedtie.skin">
 
     <object name="hauntedtie_skin_images"
             meta_type="Filesystem Directory View"
@@ -14,7 +14,7 @@
             meta_type="Filesystem Directory View"
             directory="hauntedtie.skin:skins/hauntedtie_skin_styles"/>
 
-    <skin-path name="Skin package for hauntedtie website"
+    <skin-path name="hauntedtie.skin"
                based-on="Sunburst Theme">
         <layer name="hauntedtie_skin_images"
                insert-after="custom"/>

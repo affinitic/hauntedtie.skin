@@ -5,9 +5,9 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Skin package for hauntedtie website"
+      title="hauntedtie.skin"
       directory="profiles/default"
-      description="Installs profile for Skin package for hauntedtie website"
+      description="Installs profile for hauntedtie.skin"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
