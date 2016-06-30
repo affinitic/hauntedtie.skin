@@ -308,7 +308,10 @@ div.main {
     display: block;
     height: 92px;
     background-repeat: no-repeat;
-    background-image: url("images/menu_greenlight.png");
+    background-image: url("images/menu_greenlight_out.png");
+}
+#greenlight a:hover {
+    background-image: url("images/menu_greenlight_in.png");
 }
 
 
