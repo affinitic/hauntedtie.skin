@@ -79,10 +79,9 @@ jQuery(document).ready(function ($) {
 
     // Faces link
     $(".faces-link").click(function(){
-        href = $(this).attr('href');
+        manual_index = $(this).attr('manual_index');
         scrollToAnchor("#section-fighters");
-        var index = $('#fighters-tabs a[href="'+href+'"]').parent().index();
-        $( "#fighters-tabs" ).tabsui( "option", "active", index );
+        $( "#fighters-tabs" ).tabsui( "option", "active", manual_index );
     });
 
     $('#fighters-tabs-faces a').click(function(){
