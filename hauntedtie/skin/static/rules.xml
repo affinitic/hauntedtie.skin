@@ -2,7 +2,8 @@
 <rules
     xmlns="http://namespaces.plone.org/diazo"
     xmlns:css="http://namespaces.plone.org/diazo/css"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
@@ -18,7 +19,8 @@
 
     <!-- Common Plone rules -->
     <drop theme="/html/head/meta" />
-    <drop theme="/html/head/title" />
+    <!-- Dont want to replace my theme title -->
+    <!--<drop theme="/html/head/title" />-->
     <drop theme="/html/head/base" />
     <drop theme="/html/head/style" />
     <drop theme="/html/head/comment()" />
@@ -31,5 +33,10 @@
 
     <copy attributes="xmlns lang xml:lang" content="/html" theme="/html" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
+
+    <after css:theme-children="head">
+        <link rel="shortcut icon" type="image/x-icon"
+              href="++theme++hauntedtie.skin/domiverse/images/favicon.ico"/>
+    </after>
 
 </rules>
