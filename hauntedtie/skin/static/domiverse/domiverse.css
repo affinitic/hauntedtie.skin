@@ -119,15 +119,15 @@ div.main {
 
 #banner-0 {
     z-index: -30;
-    background-image: url("images/banner_0.jpg");
+    background-image: url("images/domiverse_banner_0.jpg");
 }
 #banner-1 {
     z-index: -20;
-    background-image: url("images/banner_1.png");
+    background-image: url("images/domiverse_banner_1.png");
 }
 #banner-2 {
     z-index: -10;
-    background-image: url("images/banner_2.png");
+    background-image: url("images/domiverse_banner_2.png");
 }
 
     /* HIDDEN CHARACTERS BUTTONS */
@@ -139,28 +139,28 @@ div.main {
 }
 
 #nili-link      { z-index: 8; left: 25px; top: 474px; width: 189px; height: 280px; }
-#nili-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Nili.png"); }
+#nili-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Nili.png"); }
 
 #ash-link       { z-index: 7; left: 108px; top: 591px; width: 239px; height: 163px; }
-#ash-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Ash.png"); }
+#ash-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Ash.png"); }
 
 #wat-link       { z-index: 6; left: 213px; top: 353px; width: 131px; height: 299px; }
-#wat-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Wat.png"); }
+#wat-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_W8T.png"); }
 
 #glo-link       { z-index: 5; left: 346px; top: 416px; width: 190px; height: 288px; }
-#glo-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Glo.png"); }
+#glo-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Glo.png"); }
 
 #snakity-link   { z-index: 4; left: 731px; top: 313px; width: 214px; height: 283px; }
-#snakity-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Snakity.png"); }
+#snakity-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Snakity.png"); }
 
 #uzal-link      { z-index: 2; left: 877px; top: 538px; width: 264px; height: 216px; }
-#uzal-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Uzal.png"); }
+#uzal-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Uzal.png"); }
 
 #shluuuups-link { z-index: 1; left: 987px; top: 307px; width: 96px; height: 287px; }
-#shluuuups-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Shluu.png"); }
+#shluuuups-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Shluuuups.png"); }
 
 #xand-link      { z-index: 3; left: 1056px; top: 523px; width: 204px; height: 231px; }
-#xand-link:hover ~ #section-header-hover { background-image: url("images/website-banner-chara_Xand.png"); }
+#xand-link:hover ~ #section-header-hover { background-image: url("images/domiverse_banner_Xand.png"); }
 
 
 /* MENU */
@@ -312,10 +312,10 @@ div.main {
     display: block;
     height: 92px;
     background-repeat: no-repeat;
-    background-image: url("images/menu_greenlight_out.png");
+    background-image: url("images/domiverse_steam_greenlight_out.png");
 }
 #greenlight a:hover {
-    background-image: url("images/menu_greenlight_in.png");
+    background-image: url("images/domiverse_steam_greenlight_in.png");
 }
 
 
