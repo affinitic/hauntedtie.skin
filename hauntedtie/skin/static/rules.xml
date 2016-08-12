@@ -18,12 +18,16 @@
     <notheme if="$host = 'euclide.interne.affinitic.be:25080'" />
 
     <!-- Common Plone rules -->
-    <drop theme="/html/head/meta" />
+    <!--<drop theme="/html/head/meta" />-->
     <!-- Dont want to replace my theme title -->
     <!--<drop theme="/html/head/title" />-->
     <drop theme="/html/head/base" />
     <drop theme="/html/head/style" />
     <drop theme="/html/head/comment()" />
+
+    <drop content="/html/head/meta[@name='description']" />
+    <drop content="/html/head/title" />
+
     <after content="/html/head/meta" theme-children="/html/head" />
     <after content="/html/head/title" theme-children="/html/head" />
     <after
