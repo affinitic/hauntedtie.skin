@@ -3,6 +3,10 @@
     src: url("pixel.ttf") format('truetype');
 }
 
+* li {
+    display: list-item;
+}
+
 #domiverse-website input {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
@@ -437,7 +441,7 @@ ul#fighters-tabs-faces {
 #section-fighters .plus_description {
     position: absolute;
     top: 510px;
-    left: 20px;
+    left: 30px;
     width: 437px;
     color: rgb(91, 187, 127);
 }
@@ -457,7 +461,7 @@ ul#fighters-tabs-faces {
 #section-fighters .minus_description {
     position: absolute;
     top: 510px;
-    left: 501px;
+    left: 511px;
     width: 437px;
     color: rgb(181, 59, 42);
 }
