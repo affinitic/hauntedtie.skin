@@ -9,8 +9,11 @@
 
 /* LANGUAGE */
 
-.en, .fr { display:none; }
+.en, .fr,
+.en-inline, .fr-inline{ display:none; }
+
 .en:lang(en), .fr:lang(fr) { display:block; }
+.en-inline:lang(en), .fr-inline:lang(fr) { display:inline; }
 
 /* END LANGUAGE */
 
