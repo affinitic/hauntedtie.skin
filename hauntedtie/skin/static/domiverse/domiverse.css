@@ -7,6 +7,13 @@
     display: list-item;
 }
 
+/* LANGUAGE */
+
+.en, .fr { display:none; }
+.en:lang(en), .fr:lang(fr) { display:block; }
+
+/* END LANGUAGE */
+
 #domiverse-website input {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
@@ -244,6 +251,16 @@ div.main {
     width: 64px;
     height: 66px;
     display: block;
+}
+
+#icon-language {
+    right: 50px;
+    top: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+#icon-language a {
+    color: white;
 }
 
     /* MENU TEXTE */

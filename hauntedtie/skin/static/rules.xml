@@ -16,6 +16,7 @@
     <notheme if-path="attributes.htm"/>
     <notheme if-path="presskit"/>
     <notheme if="$host = 'euclide.interne.affinitic.be:25080'" />
+    <!--<notheme if="$host = 'localhost:8080'" />-->
 
     <!-- Common Plone rules -->
     <!--<drop theme="/html/head/meta" />-->

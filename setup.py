@@ -29,4 +29,5 @@ setup(name='hauntedtie.skin',
           'setuptools',
           'Plone',
           'plone.app.themingplugins',
+          'Products.LinguaPlone',
       ])
