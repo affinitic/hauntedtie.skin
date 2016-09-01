@@ -306,6 +306,14 @@ div.main {
     background-repeat: no-repeat;
     background-image: url("images/menu_demo.png");
 }
+#demo a:hover {
+    background-position: 0 -47px;
+    color: #ddd !important;
+    display: block;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-image: url("images/menu_demo.png");
+}
 
     /* GREENLIGHT */
 
