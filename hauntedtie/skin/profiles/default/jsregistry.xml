@@ -81,4 +81,14 @@
         insert-after="++resource++plone.app.jquery.js"
         inline="False"/>
 
+    <javascript
+        cacheable="True"
+        compression="safe"
+        cookable="True"
+        enabled="True"
+        expression="request/HTTP_X_THEME_ENABLED | nothing"
+        id="++theme++hauntedtie.skin/domiverse/js/analytics.js"
+        insert-after="++resource++plone.app.jquery.js"
+        inline="False"/>
+
 </object>
