@@ -52,9 +52,9 @@
         inline="False"/>
 
     <javascript
-        cacheable="True"
+        cacheable="False"
         compression="safe"
-        cookable="True"
+        cookable="False"
         enabled="True"
         expression="request/HTTP_X_THEME_ENABLED | nothing"
         id="++theme++hauntedtie.skin/fancybox/source/jquery.fancybox.js"
