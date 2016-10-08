@@ -3,6 +3,11 @@
     src: url("pixel.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: "pixelwww";
+    src: url("http://www.domiverse.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype");
+}
+
 * li {
     display: list-item;
 }
@@ -21,7 +26,7 @@
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
-            font-family: "pixel", sans-serif;
+            font-family: "pixel", "pixelwww", sans-serif;
 }
 
 .center {
@@ -52,7 +57,7 @@ body {
 }
 
 #domiverse-website {
-    font-family: "pixel", sans-serif;
+    font-family: "pixel", "pixelwww", sans-serif;
 }
 
 body.template-domiverse_homepage_view {
