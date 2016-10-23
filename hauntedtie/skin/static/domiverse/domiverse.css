@@ -1,11 +1,11 @@
 @font-face {
     font-family: pixel;
-    src: url("pixel.ttf") format('truetype');
-}
-
-@font-face {
-    font-family: "pixelwww";
-    src: url("https://www.domiverse.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype");
+    src: url("https://domiverse.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
+         url("https://www.domiverse.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
+         url("https://hauntedtie.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
+         url("https://www.hauntedtie.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
+         url("https://hauntedtie.com/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
+         url("https://www.hauntedtie.com/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype");
 }
 
 * li {
@@ -26,7 +26,7 @@
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
-            font-family: "pixel", "pixelwww", sans-serif;
+            font-family: "pixel", sans-serif;
 }
 
 .center {
@@ -57,7 +57,7 @@ body {
 }
 
 #domiverse-website {
-    font-family: "pixel", "pixelwww", sans-serif;
+    font-family: "pixel", sans-serif;
 }
 
 body.template-domiverse_homepage_view {
