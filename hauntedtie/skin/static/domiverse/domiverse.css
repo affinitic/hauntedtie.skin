@@ -5,7 +5,8 @@
          url("https://hauntedtie.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
          url("https://www.hauntedtie.be/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
          url("https://hauntedtie.com/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
-         url("https://www.hauntedtie.com/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype");
+         url("https://www.hauntedtie.com/++theme++hauntedtie.skin/domiverse/pixel.ttf") format("truetype"),
+         url("pixel.ttf") format("truetype");
 }
 
 * li {
@@ -551,8 +552,8 @@ ul#fighters-tabs-faces {
 
 #section-comics-small .other{
     position: absolute;
-    left: 60px;
-    width: 340px;
+    left: 0;
+    width: 453px;
     font-size: 40px;
     text-align: center;
 }
