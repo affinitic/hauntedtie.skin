@@ -674,3 +674,24 @@ ul#fighters-tabs-faces {
     height: 36px;
     padding: 0 6px 2px 6px;
 }
+
+/* PRESSKIT */
+.screenshot-small {
+    width: 236px;
+    height: 133px;
+}
+a.image-link
+{
+    text-decoration: none;
+    border: none;
+}
+#content a:link.image-link
+{
+    text-decoration: none;
+    border: none;
+}
+.presskit-character-gif
+{
+    width: 100px;
+    height: 100px;
+}

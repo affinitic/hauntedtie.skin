@@ -1,0 +1,206 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="hauntedtie">
+<body>
+
+<div metal:fill-slot="main">
+
+  <img class="image-inline" src="++theme++hauntedtie.skin/domiverse/images/domiverse_poster_small.jpg"/>
+
+  <h1>Domiverse</h1>
+
+  <p>Domiverse, The ultimate one hit brawler !</p>
+
+  <p>Play as a karate master starfish, a space slug, or a prince sausage firin’ some... BIG LAZEEEERS! Choose one of the 8+ heroes, each with unique skills and try to win the Domiverse Tournament ™. You will dive into a wacky world where each hit kills. Take on your friends in a furious battle to become the King of the universe.</p>
+
+  <h2>Description</h2>
+
+  <p>Domiverse est un brawler en arène qui se déroule dans un univers de science-fiction cartoonesque. Chaque personnage possède des habiletés et des mécaniques de jeu qui lui sont propres. Le joueur adapte sa stratégie non seulement en fonction du personnage qu’il incarne mais aussi, en fonction de ceux choisis par ses adversaires.</p>
+
+  <h4>Key features</h4>
+
+  <ul>
+    <li>Arena fight</li>
+    <li>One hit one kill</li>
+    <li>Unique skills for each characters</li>
+    <li>Local multiplayer</li>
+    <li>1-4 players</li>
+    <li>8 playable characters + 2 unlockable characters</li>
+    <li>Wacky universe</li>
+    <li>Trapped arenas</li>
+    <li>Easy to learn, hard to master!</li>
+  </ul>
+
+  <h4>Mode</h4>
+
+  <ul>
+    <li>Solo : Arcade / trial mode.</li>
+    <li>Multiplayer : Free for all / Headhunter / Team.</li>
+  </ul>
+
+
+  <br />
+  <h2>Fact sheet</h2>
+
+  <p><b>Developer:</b> <a class="external-link" href="http://hauntedtie.com/" target="_self" title=""><span>Haunted Tie</span></a><span>, Based in Belgium</p>
+  <p><b>Release date:</b> Spring 2017 (PC version)</p>
+  <p><b>Platforms:</b> PC, Mac, Linux</p>
+  <p><b>Next platforms:</b> Xbox One, Playstation 4, Nintendo Switch</p>
+  <p>
+    <b>Platform pages:</b>
+    <a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=719456565">Steam greenlight</a>,
+    <a target="_blank" href="https://haunted-tie.itch.io/domiverse">itch.io</a>
+  </p>
+  <p><b>Price:</b> 9,99$/€</p>
+  <p><b>ESRB:</b> Coming soon</p>
+  <p>
+    <b>Social:</b>
+    <a target="_blank" href="https://www.facebook.com/HauntedTie">Facebook</a>,
+    <a target="_blank" href="https://twitter.com/HauntedTie">Twitter</a>,
+    <a target="_blank" href="https://www.youtube.com/channel/UCR00As25c13fOGP5QaxYs_A">Youtube</a>,
+    <a target="_blank" href="http://haunted-tie.tumblr.com/">Tumblr</a>
+  </p>
+  <p><b>Contact:</b> info@hauntedtie.be</p>
+
+
+  <h2>Downloadable presskit</h2>
+  <p>You can download screenshots, videos and comic books easily here: <a href="https://drive.google.com/drive/folders/0B7yGSMcOCAI6WVcxNy1hRkxnWHM?usp=sharing">link</a></p>
+
+
+  <h2>Demo</h2>
+  <p>
+    A free demo of Domiverse is available, it contains 1 game mode with 2 maps and 3 characters.
+    <a target="_blank" href="https://haunted-tie.itch.io/domiverse#demo">Download demo</a>
+  </p>
+
+
+  <h2>Screenshots</h2>
+  <p>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_1.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_1.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_2.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_2.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_4.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_4.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_6.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_6.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_7.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_7.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot8.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_8.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_9.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_9.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_10.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_10.png"/></a>
+  </p>
+
+
+  <h2>Arts</h2>
+  <h4>Characters</h4>
+  <p>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Ash.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Ash.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Glo.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Glo.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Nili.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Nili.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Shlu.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Shlu.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Snakity.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Snakity.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Uzal.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Uzal.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_W8T.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_W8T.png"/></a>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Xand.png"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Xand.png"/></a>
+  </p>
+
+  <h4>Wallpaper</h4>
+  <p>
+    <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_wallpaper.jpg"><img class="image-inline screenshot-small image-link" src="++theme++hauntedtie.skin/domiverse/images/domiverse_wallpaper.jpg"/></a>
+  </p>
+
+
+  <h2>Videos</h2>
+  <h4>Gameplay trailer</h4>
+  <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/eF8CbTQCr1o?enablejsapi=1"
+                   width="425"></iframe></span></p>
+  <h4>How to play the characters</h4>
+  <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/jtVy8Kn4LQM?list=PLG1bTxpk1sBExWMOAP_abBW8egoue26TI&enablejsapi=1"
+                   width="425"></iframe></span></p>
+
+
+  <h2>Comic books</h2>
+
+  <p>
+    <a target="_blank" class="image-link" href="/++theme++hauntedtie.skin/domiverse/pdf/domiverse_the_comicbook_1_origins_en.pdf"><img class="image-inline image-link" src="++theme++hauntedtie.skin/domiverse/pdf/domiverse_the_comicbook_1_origins_en_small.jpg"/></a>
+    <a target="_blank" class="image-link" href="/++theme++hauntedtie.skin/domiverse/pdf/domiverse_the_comicbook_2_nili_en.pdf"><img class="image-inline image-link" src="++theme++hauntedtie.skin/domiverse/pdf/domiverse_the_comicbook_2_nili_en_small.jpg"/></a>
+  </p>
+
+
+  <h2>Fighters description</h2>
+
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_nili.gif" class="presskit-character-gif" />
+  <b>Nili</b> is part of the revolutionary forces and is fighting to end the war on her planet.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_shluuuups.gif" class="presskit-character-gif" />
+  <b>Shluuuups</b> is the direct descendant of the last winner of the Domiverse Tournament™. His father, King Shluuups made him to defend the family title.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_snakity.gif" class="presskit-character-gif" />
+  <b>Snakity</b> takes part in the Domiverse Tournament™ hoping to realize his biggest dream: To live on a planet made of wool.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_uzal.gif" class="presskit-character-gif" />
+  <b>Uzal</b> is a karateka starfish. After defeating in single combat all the inhabitants of his planet, he participate in Domiverse Tournament™ to meet some challenge.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_ash.gif" class="presskit-character-gif" />
+  <b>Ash</b> is a born predator. He took the place of a participant of the Domiverse Tournament™ in order to face tough opponents.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_glo.gif" class="presskit-character-gif" />
+  <b>Glomorf</b> is the xinner of the last spit contest on his planet, he was designated to participate in the Domiverse Tournament™. This has made him very happy.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_w8t.gif" class="presskit-character-gif" />
+  <b>W8T</b> is a robot developed by Souss. Its combat system reproduces capabilities of Shluuuups, son of the last winner of the Domiverse Tournament™. His only mission is to win the tournament.
+
+  <br />
+  <img src="++theme++hauntedtie.skin/domiverse/images/characters_xand.gif" class="presskit-character-gif" />
+  <b>Xand</b> is part of the government forces, he fights so that the war raging on his planet continues.
+  <br />
+  <br />
+
+
+  <h2>Selected articles</h2>
+
+  <ul>
+    <li><a class="external-link" href="https://www.indiemag.fr/articles/domiverse-bataille-quatre-joueurs" target="_blank" title="">IndieMag.fr</a></li>
+    <li><a class="external-link" href="http://www.rtl.be/videos/video/529579.aspx" target="_blank" title="">Belgian TV
+    <li><a class="external-link" href="http://www.gamergen.com/tests/gc2015-preview-domiverse-265261-2" target="_blank" title="">Gamer Gen</a></li>
+    <li><a class="external-link" href="http://www.nrj.be/articles/domiverse-one-tatane-to-rull-them-all.html" target="_blank" title="">NRJ</a></li>
+    <li><a class="external-link" href="http://www.press-start.be/2016/09/domiverse-triple-play/" target="_blank" title="">press-start.be</a></li>
+  </ul>
+  <br />
+
+
+  <h2>Awards</h2>
+  <p>E-Lotto fresh talent prize, Belgian game awards</p>
+
+
+  <h2>Haunted Tie</h2>
+  <p>Bla bla bla we are awesome bla bla.</p>
+  <img src="++theme++hauntedtie.skin/domiverse/images/haunted_tie_logo.png" />
+
+
+  <h2>Team &amp; Repeating Collaborators</h2>
+
+  <h4>Gillian Sampont</h4>
+  <p>Development &amp; Game Design, Haunted Tie</p>
+
+  <h4>Alexandre de la Serna</h4>
+  <p>Artist, Haunted Tie</p>
+
+  <h4>Cédric De Müelenaere</h4>
+  <p><a target="_blank" href="http://worldofpatator.blogspot.be/"><span>Graphist &amp; Cartoonist</span></a>, Haunted Tie</p>
+
+  <h4>Bastien Gorissen</h4>
+  <p><a target="_blank" href="http://www.gsmproductions.com"><span>Music Composer, GSM Productions</span></a></p>
+
+  <h4>Fabrice "Fabot" Blin</h4>
+  <p><a target="_blank" href="http://www.pipolass.net/Fabot"><span>Music Composer, Pipolass</span></a></p>
+
+  <h4>Pablo Schwilden Diaz</h4>
+  <p>Sound Designer, <a target="_blank" href="http://www.pabloschwilden.com/">Freelancer</a></p>
+
+</div>
+</body>
+</html>

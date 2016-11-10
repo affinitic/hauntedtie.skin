@@ -26,5 +26,12 @@
       template="templates/presskit.pt"
       />
 
+    <browser:page
+      for="*"
+      name="presskit_domiverse"
+      permission="zope2.View"
+      template="templates/presskit_domiverse.pt"
+      />
+
 </configure>
 
