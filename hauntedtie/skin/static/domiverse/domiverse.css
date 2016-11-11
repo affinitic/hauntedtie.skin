@@ -676,16 +676,36 @@ ul#fighters-tabs-faces {
 }
 
 /* PRESSKIT */
-.presskit-menu {
+
+#portal-top {
+    display: none;
+}
+
+div.presskit-menu {
     position: fixed;
     top: 20px;
     left: 20px;
     width: 200px;
 }
-.presskit-content {
+
+div.presskit-content {
     left: 250px;
     position: absolute;
     max-width: 800px;
+}
+div.presskit-content hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ddd -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    display: block;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .screenshot-small {

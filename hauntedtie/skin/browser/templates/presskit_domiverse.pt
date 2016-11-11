@@ -22,7 +22,6 @@
   <a tal:attributes="href string:${anchor_url}anchor-awards">Awards</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-hauntedtie">Haunted Tie</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-collaborators">Team &amp; Repeating Collaborators</a><br />
-  <h2></h2>
 </div>
 
 <div class="presskit-content">
@@ -32,6 +31,7 @@
 
   <p>Play as a karate master starfish, a space slug, or a prince sausage firin’ some... BIG LAZEEEERS! Choose one of the 8+ heroes, each with unique skills and try to win the Domiverse Tournament ™. You will dive into a wacky world where each hit kills. Take on your friends in a furious battle to become the King of the universe.</p>
 
+  <hr />
   <h2 id="anchor-description">Description</h2>
 
   <p>Domiverse est un brawler en arène qui se déroule dans un univers de science-fiction cartoonesque. Chaque personnage possède des habiletés et des mécaniques de jeu qui lui sont propres. Le joueur adapte sa stratégie non seulement en fonction du personnage qu’il incarne mais aussi, en fonction de ceux choisis par ses adversaires.</p>
@@ -58,7 +58,7 @@
   </ul>
 
 
-  <br />
+  <hr />
   <h2 id="anchor-factsheet">Fact sheet</h2>
 
   <p><b>Developer:</b> <a class="external-link" href="http://hauntedtie.com/" target="_self" title=""><span>Haunted Tie</span></a><span>, Based in Belgium</p>
@@ -82,10 +82,12 @@
   <p><b>Contact:</b> info@hauntedtie.be</p>
 
 
+  <hr />
   <h2 id="anchor-downloadable">Downloadable presskit</h2>
   <p>You can download screenshots, videos and comic books easily here: <a href="https://drive.google.com/drive/folders/0B7yGSMcOCAI6WVcxNy1hRkxnWHM?usp=sharing">link</a></p>
 
 
+  <hr />
   <h2 id="anchor-demo">Demo</h2>
   <p>
     A free demo of Domiverse is available, it contains 1 game mode with 2 maps and 3 characters.
@@ -93,6 +95,7 @@
   </p>
 
 
+  <hr />
   <h2 id="anchor-screenshots">Screenshots</h2>
   <p>
     <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_1.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_1.png"/></a>
@@ -106,6 +109,7 @@
   </p>
 
 
+  <hr />
   <h2 id="anchor-arts">Arts</h2>
   <h4>Characters</h4>
   <p>
@@ -125,6 +129,7 @@
   </p>
 
 
+  <hr />
   <h2 id="anchor-videos">Videos</h2>
   <h4>Gameplay trailer</h4>
   <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/eF8CbTQCr1o?enablejsapi=1"
@@ -134,6 +139,7 @@
                    width="425"></iframe></span></p>
 
 
+  <hr />
   <h2 id="anchor-comicbooks">Comic books</h2>
 
   <p>
@@ -142,6 +148,7 @@
   </p>
 
 
+  <hr />
   <h2 id="anchor-fighters">Fighters</h2>
 
   <img src="++theme++hauntedtie.skin/domiverse/images/characters_nili.gif" class="presskit-character-gif" />
@@ -178,6 +185,7 @@
   <br />
 
 
+  <hr />
   <h2 id="anchor-pressarticles">Selected articles</h2>
 
   <ul>
@@ -190,15 +198,18 @@
   <br />
 
 
+  <hr />
   <h2 id="anchor-awards">Awards</h2>
   <p>E-Lotto fresh talent prize, Belgian game awards</p>
 
 
+  <hr />
   <h2 id="anchor-hauntedtie">Haunted Tie</h2>
   <p>Bla bla bla we are awesome bla bla.</p>
   <img src="++theme++hauntedtie.skin/domiverse/images/haunted_tie_logo.png" />
 
 
+  <hr />
   <h2 id="anchor-collaborators">Team &amp; Repeating Collaborators</h2>
 
   <h4>Gillian Sampont</h4>
