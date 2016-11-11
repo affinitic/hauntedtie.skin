@@ -6,15 +6,33 @@
 
 <div metal:fill-slot="main">
 
-  <img class="image-inline" src="++theme++hauntedtie.skin/domiverse/images/domiverse_poster_small.jpg"/>
-
+<div class="presskit-menu"
+     tal:define="anchor_url string:${here/absolute_url}/presskit_domiverse#">
   <h1>Domiverse</h1>
+  <a tal:attributes="href string:${anchor_url}anchor-description">Description</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-factsheet">Fact sheet</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-downloadable">Downloadable presskit</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-demo">Demo</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-screenshots">Screenshots</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-arts">Arts</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-videos">Videos</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-comicbooks">Comic books</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-fighters">Fighters</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-pressarticles">Selected articles</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-awards">Awards</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-hauntedtie">Haunted Tie</a><br />
+  <a tal:attributes="href string:${anchor_url}anchor-collaborators">Team &amp; Repeating Collaborators</a><br />
+  <h2></h2>
+</div>
+
+<div class="presskit-content">
+  <img class="image-inline" src="++theme++hauntedtie.skin/domiverse/images/domiverse_poster_small.jpg"/>
 
   <p>Domiverse, The ultimate one hit brawler !</p>
 
   <p>Play as a karate master starfish, a space slug, or a prince sausage firin’ some... BIG LAZEEEERS! Choose one of the 8+ heroes, each with unique skills and try to win the Domiverse Tournament ™. You will dive into a wacky world where each hit kills. Take on your friends in a furious battle to become the King of the universe.</p>
 
-  <h2>Description</h2>
+  <h2 id="anchor-description">Description</h2>
 
   <p>Domiverse est un brawler en arène qui se déroule dans un univers de science-fiction cartoonesque. Chaque personnage possède des habiletés et des mécaniques de jeu qui lui sont propres. Le joueur adapte sa stratégie non seulement en fonction du personnage qu’il incarne mais aussi, en fonction de ceux choisis par ses adversaires.</p>
 
@@ -41,7 +59,7 @@
 
 
   <br />
-  <h2>Fact sheet</h2>
+  <h2 id="anchor-factsheet">Fact sheet</h2>
 
   <p><b>Developer:</b> <a class="external-link" href="http://hauntedtie.com/" target="_self" title=""><span>Haunted Tie</span></a><span>, Based in Belgium</p>
   <p><b>Release date:</b> Spring 2017 (PC version)</p>
@@ -64,18 +82,18 @@
   <p><b>Contact:</b> info@hauntedtie.be</p>
 
 
-  <h2>Downloadable presskit</h2>
+  <h2 id="anchor-downloadable">Downloadable presskit</h2>
   <p>You can download screenshots, videos and comic books easily here: <a href="https://drive.google.com/drive/folders/0B7yGSMcOCAI6WVcxNy1hRkxnWHM?usp=sharing">link</a></p>
 
 
-  <h2>Demo</h2>
+  <h2 id="anchor-demo">Demo</h2>
   <p>
     A free demo of Domiverse is available, it contains 1 game mode with 2 maps and 3 characters.
     <a target="_blank" href="https://haunted-tie.itch.io/domiverse#demo">Download demo</a>
   </p>
 
 
-  <h2>Screenshots</h2>
+  <h2 id="anchor-screenshots">Screenshots</h2>
   <p>
     <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_1.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_1.png"/></a>
     <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_2.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/domiverse_screenshot_2.png"/></a>
@@ -88,7 +106,7 @@
   </p>
 
 
-  <h2>Arts</h2>
+  <h2 id="anchor-arts">Arts</h2>
   <h4>Characters</h4>
   <p>
     <a class="image-link" href="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Ash.png"><img class="image-inline screenshot-small" src="++theme++hauntedtie.skin/domiverse/images/Chara-Files_Ash.png"/></a>
@@ -107,7 +125,7 @@
   </p>
 
 
-  <h2>Videos</h2>
+  <h2 id="anchor-videos">Videos</h2>
   <h4>Gameplay trailer</h4>
   <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/eF8CbTQCr1o?enablejsapi=1"
                    width="425"></iframe></span></p>
@@ -116,7 +134,7 @@
                    width="425"></iframe></span></p>
 
 
-  <h2>Comic books</h2>
+  <h2 id="anchor-comicbooks">Comic books</h2>
 
   <p>
     <a target="_blank" class="image-link" href="/++theme++hauntedtie.skin/domiverse/pdf/domiverse_the_comicbook_1_origins_en.pdf"><img class="image-inline image-link" src="++theme++hauntedtie.skin/domiverse/pdf/domiverse_the_comicbook_1_origins_en_small.jpg"/></a>
@@ -124,7 +142,7 @@
   </p>
 
 
-  <h2>Fighters description</h2>
+  <h2 id="anchor-fighters">Fighters</h2>
 
   <img src="++theme++hauntedtie.skin/domiverse/images/characters_nili.gif" class="presskit-character-gif" />
   <b>Nili</b> is part of the revolutionary forces and is fighting to end the war on her planet.
@@ -147,7 +165,7 @@
 
   <br />
   <img src="++theme++hauntedtie.skin/domiverse/images/characters_glo.gif" class="presskit-character-gif" />
-  <b>Glomorf</b> is the xinner of the last spit contest on his planet, he was designated to participate in the Domiverse Tournament™. This has made him very happy.
+  <b>Glomorf</b> is the winner of the last spit contest on his planet, he was designated to participate in the Domiverse Tournament™. This has made him very happy.
 
   <br />
   <img src="++theme++hauntedtie.skin/domiverse/images/characters_w8t.gif" class="presskit-character-gif" />
@@ -160,7 +178,7 @@
   <br />
 
 
-  <h2>Selected articles</h2>
+  <h2 id="anchor-pressarticles">Selected articles</h2>
 
   <ul>
     <li><a class="external-link" href="https://www.indiemag.fr/articles/domiverse-bataille-quatre-joueurs" target="_blank" title="">IndieMag.fr</a></li>
@@ -172,16 +190,16 @@
   <br />
 
 
-  <h2>Awards</h2>
+  <h2 id="anchor-awards">Awards</h2>
   <p>E-Lotto fresh talent prize, Belgian game awards</p>
 
 
-  <h2>Haunted Tie</h2>
+  <h2 id="anchor-hauntedtie">Haunted Tie</h2>
   <p>Bla bla bla we are awesome bla bla.</p>
   <img src="++theme++hauntedtie.skin/domiverse/images/haunted_tie_logo.png" />
 
 
-  <h2>Team &amp; Repeating Collaborators</h2>
+  <h2 id="anchor-collaborators">Team &amp; Repeating Collaborators</h2>
 
   <h4>Gillian Sampont</h4>
   <p>Development &amp; Game Design, Haunted Tie</p>
@@ -200,6 +218,8 @@
 
   <h4>Pablo Schwilden Diaz</h4>
   <p>Sound Designer, <a target="_blank" href="http://www.pabloschwilden.com/">Freelancer</a></p>
+
+</div>
 
 </div>
 </body>

@@ -676,6 +676,18 @@ ul#fighters-tabs-faces {
 }
 
 /* PRESSKIT */
+.presskit-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+}
+.presskit-content {
+    left: 250px;
+    position: absolute;
+    max-width: 800px;
+}
+
 .screenshot-small {
     width: 236px;
     height: 133px;
