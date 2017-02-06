@@ -82,7 +82,8 @@ jQuery(document).ready(function ($) {
         manual_index = $(this).attr('manual_index');
         scrollToAnchor("#section-fighters");
         $( "#fighters-tabs" ).tabsui( "option", "active", manual_index );
-    });
+        pauseDomiverseVideo();
+        });
 
     $('#fighters-tabs-faces a').click(function(){
         pauseDomiverseVideo();
