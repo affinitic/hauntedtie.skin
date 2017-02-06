@@ -233,18 +233,29 @@ div.main {
     height: 36px;
 }
 
-#icon-facebook       { left: 0px; background-image: url("images/menu_fb_grey.png"); }
-#icon-facebook:hover { background-image: url("images/menu_fb.png"); }
-#icon-twitter        { left: 44px; background-image: url("images/menu_twitter_grey.png"); }
-#icon-twitter:hover  { background-image: url("images/menu_twitter.png"); }
-#icon-youtube        { left: 88px; background-image: url("images/menu_youtube_grey.png"); }
-#icon-youtube:hover  { background-image: url("images/menu_youtube.png"); }
-#icon-press          { left: 132px; background-image: url("images/menu_presskit_grey.png"); }
-#icon-press:hover    { background-image: url("images/menu_presskit.png"); }
-#icon-mail           { left: 176px; background-image: url("images/menu_mail_grey.png"); }
-#icon-mail:hover     { background-image: url("images/menu_mail.png"); }
-#icon-tumblr         { left: 220px; background-image: url("images/menu_tumblr_grey.png"); }
-#icon-tumblr:hover   { background-image: url("images/menu_tumblr.png"); }
+#icon-facebook       { left: 0px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -36px; }
+#icon-facebook:hover { background-position: 0 0px; }
+
+#icon-twitter        { left: 44px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -324px; }
+#icon-twitter:hover  { background-position: 0 -288px; }
+
+#icon-youtube        { left: 88px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -396px; }
+#icon-youtube:hover  { background-position: 0 -360px; }
+
+#icon-press          { left: 132px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -180px; }
+#icon-press:hover    { background-position: 0 -144px; }
+
+#icon-mail           { left: 176px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -108px; }
+#icon-mail:hover     { background-position: 0 -72px; }
+
+#icon-tumblr         { left: 220px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -252px; }
+#icon-tumblr:hover   { background-position: 0 -216px; }
 
 #icon-backtotop {
     right: 50px;
@@ -287,14 +298,20 @@ div.main {
     height: 36px;
 }
 
-#icon-media          { width: 129px; left: 0px; background-image: url("images/menu_principal_media_out.png"); }
-#icon-media:hover    { width: 129px; background-image: url("images/menu_principal_media_in.png"); }
-#icon-fighters       { width: 187px; left: 147px; background-image: url("images/menu_principal_fighters_out.png"); }
-#icon-fighters:hover { width: 187px; background-image: url("images/menu_principal_fighters_in.png"); }
-#icon-comics         { width: 154px; left: 352px; background-image: url("images/menu_principal_comics_out.png"); }
-#icon-comics:hover   { width: 154px; background-image: url("images/menu_principal_comics_in.png"); }
-#icon-shop           { width: 104px; left: 524px; background-image: url("images/menu_principal_shop_out.png"); }
-#icon-shop:hover     { width: 104px; background-image: url("images/menu_principal_shop_in.png"); }
+#icon-media          { width: 129px; left: 0px; background-image: url("images/menu_principal_sprite.png");
+                       background-position: 0 -144px; }
+#icon-media:hover    { background-position: 0 -180px; }
+
+#icon-fighters       { width: 187px; left: 147px; background-image: url("images/menu_principal_sprite.png"); }
+#icon-fighters:hover { background-position: 0 -36px; }
+
+#icon-comics         { width: 154px; left: 352px; background-image: url("images/menu_principal_sprite.png");
+                       background-position: 0 -72px; }
+#icon-comics:hover   { background-position: 0 -108px; }
+
+#icon-shop           { width: 104px; left: 524px; background-image: url("images/menu_principal_sprite.png");
+                       background-position: 0 -216px; }
+#icon-shop:hover     { background-position: 0 -252px; }
 
     /* DEMO */
 
@@ -335,10 +352,10 @@ div.main {
     display: block;
     height: 92px;
     background-repeat: no-repeat;
-    background-image: url("images/domiverse_steam_greenlight_out.png");
+    background-image: url("images/domiverse_steam_greenlight_sprite.png");
 }
 #greenlight a:hover {
-    background-image: url("images/domiverse_steam_greenlight_in.png");
+    background-position: 0 -92px;
 }
 
 
@@ -630,6 +647,7 @@ ul#fighters-tabs-faces {
     height: 230px;
     margin: 0 auto;
     position: relative;
+    text-align: center;
 }
 
 #section-shop-itchio {
