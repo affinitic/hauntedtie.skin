@@ -33,5 +33,11 @@
       template="templates/presskit_domiverse.pt"
       />
 
-</configure>
+    <browser:view
+      for="*"
+      name="google8fd259d57f0ccc7e.html"
+      permission="zope2.View"
+      class=".google_verification.GoogleVerification"
+      />
 
+</configure>
