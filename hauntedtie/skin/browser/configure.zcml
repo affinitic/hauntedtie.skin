@@ -33,12 +33,5 @@
       template="templates/presskit_domiverse.pt"
       />
 
-    <browser:page
-      for="*"
-      name="google8fd259d57f0ccc7e.html"
-      permission="zope2.View"
-      template="templates/google8fd259d57f0ccc7e.html"
-      />
-
 </configure>
 
