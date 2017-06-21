@@ -745,3 +745,7 @@ a.image-link
     width: 100px;
     height: 100px;
 }
+.presskit-character-gif-container
+{
+    float: left;
+}
