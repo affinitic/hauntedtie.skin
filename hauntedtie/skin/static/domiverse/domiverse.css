@@ -338,23 +338,23 @@ div.main {
     background-image: url("images/menu_demo.png");
 }
 
-    /* GREENLIGHT */
+    /* STEAM */
 
-#greenlight {
+#steam {
     position: absolute;
     left: 1009px;
     top: 16px;
     width: 235px;
     height: 92px;
 }
-#greenlight a {
+#steam a {
     color: #ddd !important;
     display: block;
     height: 92px;
     background-repeat: no-repeat;
-    background-image: url("images/domiverse_steam_greenlight_sprite.png");
+    background-image: url("images/domiverse_steam_wishlist_sprite.png");
 }
-#greenlight a:hover {
+#steam a:hover {
     background-position: 0 -92px;
 }
 
