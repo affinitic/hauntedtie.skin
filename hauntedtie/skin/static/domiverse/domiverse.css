@@ -253,9 +253,9 @@ div.main {
                        background-position: 0 -108px; }
 #icon-mail:hover     { background-position: 0 -72px; }
 
-#icon-tumblr         { left: 220px; background-image: url("images/menu_icons_sprite.png");
+#icon-instagram      { left: 220px; background-image: url("images/menu_icons_sprite.png");
                        background-position: 0 -252px; }
-#icon-tumblr:hover   { background-position: 0 -216px; }
+#icon-instagram:hover { background-position: 0 -216px; }
 
 #icon-backtotop {
     right: 50px;
