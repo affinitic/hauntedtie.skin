@@ -9,10 +9,10 @@
 <div class="presskit-menu"
      tal:define="anchor_url string:${here/absolute_url}/presskit_domiverse#">
   <h1>Domiverse</h1>
+  <a tal:attributes="href string:${anchor_url}anchor-quick-description">Quick description</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-description">Description</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-factsheet">Fact sheet</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-downloadable">Downloadable presskit</a><br />
-  <a tal:attributes="href string:${anchor_url}anchor-demo">Demo</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-screenshots">Screenshots</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-arts">Arts</a><br />
   <a tal:attributes="href string:${anchor_url}anchor-videos">Videos</a><br />
@@ -27,82 +27,57 @@
 <div class="presskit-content">
   <img class="image-inline" src="++theme++hauntedtie.skin/domiverse/images/domiverse_poster_small.jpg"/>
 
-  <p>Domiverse, The ultimate one hit brawler !</p>
+  <h2 id="anchor-quick-description">Domiverse</h2>
 
-  <p>Play as a karate master starfish, a space slug, or a prince sausage firin’ some... BIG LAZEEEERS! Choose one of the 8+ heroes, each with unique skills and try to win the Domiverse Tournament ™. You will dive into a wacky world where each hit kills. Take on your friends in a furious battle to become the King of the universe.</p>
+  <p>A party brawler where every character is overpowered</p>
+
+  <p>You are an overpowered gladiator with the skills to destroy all who stand before you. The only problem is, so is everyone else! Enter the Domiverse for fast and frantic fun in this party brawler made for up to four players in local play.</p>
 
   <hr />
   <h2 id="anchor-description">Description</h2>
 
-  <p>Domiverse, it's like Super Smash Bros and Towerfall having a child.</p>
+  <p>There’s always time for one more round in this fast and frantic 4-player party brawler. Each of the fighters has a crazy ability that’s a bit unfair, so it’s all about being a bit unfairer-than your friends. Punch through walls, teleport, snipe with extreme deadly accuracy or just be a massive laser shooting sausage - but you can’t be all of them. So pick your favourite fighter and battle your friends in super short and intense one-hit-kill matches in 3 different modes. Domiverse is best enjoyed accompanied by the assumption of some mild physical violence between friends, playing together in front of the TV.</p>
 
-  <p>Fight in arenas filled with traps and surprises at the heart of a cartoonish sci-fi universe. As in a classic fighting game, every character proposes a specific gameplay and offer an original experience. Range shootings, close combat, slides, rolls, underhand tricks, double jumps, completely cheated movements, there is something for every taste! All this served in a home made pixelart which is enjoyed beyond the galaxy.</p>
+  <p>When not brawling with friends you can tackle the single player arcade mode, or train to become the ultimate Domiverse competitor by smashing through target courses in challenge mode. Unlock several hidden characters, hand-drawn comics explaining the backstory of the fighters taking part in the Domiverse tournament and more.</p>
 
-  <h4>Awesome features</h4>
+  <h4>Features</h4>
 
   <ul>
-    <li>One hit one kill</li>
-    <li>Unique skills for each characters</li>
-    <li>1-4 players</li>
-    <li>8 playable characters + 2 to unlock</li>
-    <li>Trapped arenas</li>
-    <li>Easy to learn, hard to master!</li>
+    <li>Party brawler for up to 4 players</li>
+    <li>10 characters, each one overpowered in their own way</li>
+    <li>Shoot through walls, teleport, or just be a massive laser-wielding sausage</li>
+    <li>3 multiplayer game modes (King, Survivor and Ace Hunter)</li>
+    <li>All modes playable in free for all and in teams</li>
+    <li>Arcade and challenge mode for solo fighters</li>
+    <li>Unlock comics showing the bizarre backstories of some of the fighters</li>
+    <li>Also maybe a few hidden secrets, who knows?</li>
   </ul>
   <br />
-
-  <h4>You got friends</h4>
-
-  <ul>
-    <li>Free for all / Team</li>
-    <li>Survival</li>
-    <li>Ace hunter</li>
-    <li>King of the hill</li>
-  </ul>
-  <br />
-
-  <h4>Forever alone</h4>
-
-  <ul>
-    <li>Arcade</li>
-    <li>Trials</li>
-    <li>Ai opponents</li>
-  </ul>
-
 
   <hr />
   <h2 id="anchor-factsheet">Fact sheet</h2>
 
-  <p><b>Developer:</b> <a class="external-link" href="http://hauntedtie.com/" target="_self" title=""><span>Haunted Tie</span></a><span>, Based in Belgium</p>
-  <p><b>Release date:</b> End 2017 (PC version)</p>
+  <p><b>Developer:</b> <a class="external-link" href="http://hauntedtie.com/" target="_self" title=""><span>Haunted Tie</span></a><span>, Based in Belgium</span></p>
+  <p><b>Release date:</b> 7th March 2017</p>
   <p><b>Platforms:</b> PC, Mac, Linux</p>
   <p>
     <b>Platform pages:</b>
-    <a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id=719456565">Steam greenlight</a>,
-    <a target="_blank" href="https://haunted-tie.itch.io/domiverse">itch.io</a>
+    <a target="_blank" href="http://store.steampowered.com/app/598880/Domiverse/">Steam</a>
   </p>
-  <p><b>Price:</b> 12,99$/€</p>
-  <p><b>ESRB:</b> Coming soon</p>
+  <p><b>Price:</b> 12,99 $/€</p>
   <p>
     <b>Social:</b>
-    <a target="_blank" href="https://www.facebook.com/HauntedTie">Facebook</a>,
+    <a target="_blank" href="https://www.facebook.com/domiverse/">Facebook</a>,
     <a target="_blank" href="https://twitter.com/HauntedTie">Twitter</a>,
     <a target="_blank" href="https://www.youtube.com/channel/UCR00As25c13fOGP5QaxYs_A">Youtube</a>,
-    <a target="_blank" href="http://haunted-tie.tumblr.com/">Tumblr</a>
+    <a target="_blank" href="https://www.instagram.com/hauntedtie/">Instagram</a>
   </p>
   <p><b>Contact:</b> info@hauntedtie.be</p>
 
 
   <hr />
   <h2 id="anchor-downloadable">Downloadable presskit</h2>
-  <p>You can download screenshots, videos and comic books easily here: <a href="https://drive.google.com/drive/folders/0B7yGSMcOCAI6WVcxNy1hRkxnWHM?usp=sharing">link</a></p>
-
-
-  <hr />
-  <h2 id="anchor-demo">Demo</h2>
-  <p>
-    A free demo of Domiverse is available, it contains 1 game mode with 2 maps and 3 characters.
-    <a target="_blank" href="https://haunted-tie.itch.io/domiverse#demo">Download demo</a>
-  </p>
+  <p>You can download screenshots, videos and comic books easily here: <a target="_blank" href="https://drive.google.com/drive/folders/0B7yGSMcOCAI6WVcxNy1hRkxnWHM?usp=sharing">downloadable content</a></p>
 
 
   <hr />
@@ -143,15 +118,22 @@
 
   <hr />
   <h2 id="anchor-videos">Videos</h2>
+
+  <!--<h4>Release date announcement trailer</h4>-->
+
+  <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/5aJRh-nYnLI?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+
   <h4>Action trailer</h4>
-  <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/9HfiXR_ivWo?enablejsapi=1"
-                   width="425"></iframe></span></p>
-  <h4>Gameplay trailer</h4>
-  <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/eF8CbTQCr1o?enablejsapi=1"
-                   width="425"></iframe></span></p>
+  <p><span><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/9HfiXR_ivWo?enablejsapi=1"
+                   width="560"></iframe></span></p>
+
   <h4>How to play the characters</h4>
-  <p><span><iframe frameborder="0" height="350" src="https://www.youtube.com/embed/jtVy8Kn4LQM?list=PLG1bTxpk1sBExWMOAP_abBW8egoue26TI&enablejsapi=1"
-                   width="425"></iframe></span></p>
+  <p><span><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/jtVy8Kn4LQM?list=PLG1bTxpk1sBExWMOAP_abBW8egoue26TI&enablejsapi=1"
+                   width="560"></iframe></span></p>
+
+  <h4>Gameplay trailer (2016)</h4>
+  <p><span><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/eF8CbTQCr1o?enablejsapi=1"
+                   width="560"></iframe></span></p>
 
 
   <hr />
@@ -233,23 +215,26 @@
 
   <hr />
   <h2 id="anchor-awards">Awards</h2>
-  <p>E-Lotto fresh talent prize, Belgian game awards</p>
+  <ul>
+    <li>E-Lotto fresh talent prize, Belgian game awards</li>
+  </ul>
 
 
   <hr />
   <h2 id="anchor-hauntedtie">Haunted Tie</h2>
-  <p>Bla bla bla we are awesome bla bla.</p>
+  <p>Haunted Tie is an indie game dev studio based in Belgium. Having released a number of experimental games through <a href="https://haunted-tie.itch.io/">itch.io</a>, Domiverse marks the first major release for the studio.
+</p>
   <img src="++theme++hauntedtie.skin/domiverse/images/haunted_tie_logo.png" />
 
 
   <hr />
   <h2 id="anchor-collaborators">Team &amp; Repeating Collaborators</h2>
 
-  <h4>Gillian Sampont</h4>
-  <p>Development &amp; Game Design, Haunted Tie</p>
-
   <h4>Alexandre de la Serna</h4>
   <p>Artist, Haunted Tie</p>
+
+  <h4>Gillian Sampont</h4>
+  <p>Developer, Haunted Tie</p>
 
   <h4>Cédric De Müelenaere</h4>
   <p><a target="_blank" href="http://worldofpatator.blogspot.be/"><span>Graphist &amp; Cartoonist</span></a>, Haunted Tie</p>
