@@ -688,23 +688,11 @@ ul#fighters-tabs-faces {
     text-align: center;
 }
 
-/* CREDITS SECTION */
-
-#section-credits {
-    width: 100%;
-    //height: 820px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
-#section-credits-inside {
-    padding-top: 59px;
-    padding-bottom: 59px;
-    width: 960px;
-    //height: 728px;
-    margin: 0 auto;
+#newsletter-menu {
+    top: 53px;
+    left: 70px;
     position: relative;
-    text-align: center;
+    width: 800px;
 }
 
 #newsletter input {
@@ -724,6 +712,27 @@ ul#fighters-tabs-faces {
     height: 36px;
     padding: 0 6px 2px 6px;
 }
+
+
+/* CREDITS SECTION */
+
+#section-credits {
+    width: 100%;
+    //height: 820px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#section-credits-inside {
+    padding-top: 59px;
+    padding-bottom: 59px;
+    width: 960px;
+    //height: 728px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
 
 /* PRESSKIT */
 

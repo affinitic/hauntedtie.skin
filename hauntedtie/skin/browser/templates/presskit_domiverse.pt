@@ -64,6 +64,10 @@
     <b>Platform pages:</b>
     <a target="_blank" href="http://store.steampowered.com/app/598880/Domiverse/">Steam</a>
   </p>
+  <p>
+    <b>Website:</b>
+    <a target="_blank" href="https://domiverse.be/">https://domiverse.be/</a>
+  </p>
   <p><b>Price:</b> 12,99 $/€</p>
   <p>
     <b>Social:</b>
@@ -119,9 +123,9 @@
   <hr />
   <h2 id="anchor-videos">Videos</h2>
 
-  <!--<h4>Release date announcement trailer</h4>-->
+  <h4>Release date announcement trailer</h4>
 
-  <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/5aJRh-nYnLI?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5aJRh-nYnLI?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
   <h4>Action trailer</h4>
   <p><span><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/9HfiXR_ivWo?enablejsapi=1"
