@@ -352,7 +352,7 @@ div.main {
     display: block;
     height: 92px;
     background-repeat: no-repeat;
-    background-image: url("images/domiverse_steam_wishlist_sprite.png");
+    background-image: url("images/domiverse_steam_sprite.png");
 }
 #steam a:hover {
     background-position: 0 -92px;
@@ -460,7 +460,7 @@ ul#fighters-tabs-faces {
 #fighters-tabs-faces li div.snakity { background-image: url("images/characters_snakity_face.png"); }
 #fighters-tabs-faces li div.uzal { background-image: url("images/characters_uzal_face.png"); }
 #fighters-tabs-faces li div.patator { background-image: url("images/characters_patator_face.png"); }
-#fighters-tabs-faces li div.block { background-image: url("images/characters_block_face.png"); }
+#fighters-tabs-faces li div.rocky { background-image: url("images/characters_rocky_face.png"); }
 
 #section-fighters .name {
     position: absolute;
@@ -661,7 +661,7 @@ ul#fighters-tabs-faces {
     display: block;
     height: 92px;
     background-repeat: no-repeat;
-    background-image: url("images/domiverse_steam_wishlist_sprite.png");
+    background-image: url("images/domiverse_steam_sprite.png");
 }
 
 #section-shop-itchio a:hover {
