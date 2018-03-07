@@ -124,9 +124,13 @@
   <hr />
   <h2 id="anchor-videos">Videos</h2>
 
+  <h4>Launch trailer</h4>
+
+  <p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/HdUfhfkW9hs?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></span></p>
+
   <h4>Release date announcement trailer</h4>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5aJRh-nYnLI?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <p><span><iframe width="560" height="315" src="https://www.youtube.com/embed/5aJRh-nYnLI?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></span></p>
 
   <h4>Action trailer</h4>
   <p><span><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/9HfiXR_ivWo?enablejsapi=1"
