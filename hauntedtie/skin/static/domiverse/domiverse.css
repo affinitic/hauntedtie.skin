@@ -257,6 +257,10 @@ div.main {
                        background-position: 0 -252px; }
 #icon-instagram:hover { background-position: 0 -216px; }
 
+#icon-discord        { left: 264px; background-image: url("images/menu_icons_sprite.png");
+                       background-position: 0 -468px; }
+#icon-discord:hover  { background-position: 0 -432px; }
+
 #icon-backtotop {
     right: 50px;
     bottom: 50px;
